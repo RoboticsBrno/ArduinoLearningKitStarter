@@ -1,86 +1,85 @@
 EESchema Schematic File Version 2
-LIBS:Zilog
-LIBS:xilinx
-LIBS:Xicor
-LIBS:Worldsemi
-LIBS:video
-LIBS:valves
-LIBS:ttl_ieee
-LIBS:transistors
-LIBS:transf
-LIBS:texas
-LIBS:switches
-LIBS:supertex
-LIBS:stm32
-LIBS:stm8
-LIBS:siliconi
-LIBS:silabs
-LIBS:sensors
-LIBS:rfcom
-LIBS:relays
-LIBS:regul
-LIBS:references
-LIBS:pspice
-LIBS:Power_Management
-LIBS:powerint
-LIBS:power
-LIBS:philips
-LIBS:Oscillators
-LIBS:opto
-LIBS:onsemi
-LIBS:nxp_armmcu
-LIBS:nordicsemi
-LIBS:msp430
-LIBS:motorola
-LIBS:motor_drivers
-LIBS:microchip_pic32mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic10mcu
-LIBS:microchip_dspic33dsc
-LIBS:microchip
-LIBS:microcontrollers
-LIBS:memory
-LIBS:maxim
-LIBS:logo
-LIBS:linear
-LIBS:Lattice
-LIBS:ir
-LIBS:interface
-LIBS:intel
-LIBS:hc11
-LIBS:graphic
-LIBS:gennum
-LIBS:ftdi
-LIBS:ESD_Protection
-LIBS:elec-unifil
-LIBS:dsp
-LIBS:display
-LIBS:diode
-LIBS:digital-audio
-LIBS:device
-LIBS:dc-dc
-LIBS:cypress
-LIBS:contrib
-LIBS:conn
+LIBS:robotarna_arduino-rescue
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:brooktre
 LIBS:cmos_ieee
 LIBS:cmos4000
-LIBS:brooktre
-LIBS:bbd
-LIBS:battery_management
-LIBS:audio
-LIBS:atmel
-LIBS:analog_switches
-LIBS:analog_devices
-LIBS:Altera
-LIBS:adc-dac
-LIBS:actel
-LIBS:ac-dc
-LIBS:74xx
-LIBS:74xgxx
-LIBS:shield_arduino
-LIBS:yaqwsx
+LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
+LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
+LIBS:linear
+LIBS:logo
+LIBS:maxim
+LIBS:memory
+LIBS:microcontrollers
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic32mcu
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:Zilog
 LIBS:robotarna_arduino-cache
 EELAYER 25 0
 EELAYER END
@@ -357,7 +356,7 @@ F 3 "" H 8450 3600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R16
+L R-RESCUE-robotarna_arduino R16
 U 1 1 57E2FB4D
 P 9000 3450
 F 0 "R16" V 9080 3450 50  0000 C CNN
@@ -368,7 +367,7 @@ F 3 "" H 9000 3450 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R17
+L R-RESCUE-robotarna_arduino R17
 U 1 1 57E2FBFC
 P 9000 3650
 F 0 "R17" V 9080 3650 50  0000 C CNN
@@ -379,7 +378,7 @@ F 3 "" H 9000 3650 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L R R18
+L R-RESCUE-robotarna_arduino R18
 U 1 1 57E2FC45
 P 9000 3850
 F 0 "R18" V 9080 3850 50  0000 C CNN
@@ -546,7 +545,7 @@ F 3 "" H 3900 4950 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R8
+L R-RESCUE-robotarna_arduino R8
 U 1 1 57E354F8
 P 4350 4950
 F 0 "R8" V 4430 4950 50  0000 C CNN
@@ -592,7 +591,7 @@ F 3 "" H 3900 5600 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R9
+L R-RESCUE-robotarna_arduino R9
 U 1 1 57E35DE4
 P 4350 5600
 F 0 "R9" V 4430 5600 50  0000 C CNN
@@ -638,7 +637,7 @@ F 3 "" H 3850 6250 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R5
+L R-RESCUE-robotarna_arduino R5
 U 1 1 57E36617
 P 4300 6250
 F 0 "R5" V 4380 6250 50  0000 C CNN
@@ -684,7 +683,7 @@ F 3 "" H 3850 6900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R6
+L R-RESCUE-robotarna_arduino R6
 U 1 1 57E3663A
 P 4300 6900
 F 0 "R6" V 4380 6900 50  0000 C CNN
@@ -777,7 +776,7 @@ A2
 Wire Wire Line
 	1500 6500 2050 6500
 $Comp
-L R R4
+L R-RESCUE-robotarna_arduino R4
 U 1 1 57E37C7D
 P 2050 6750
 F 0 "R4" V 2130 6750 50  0000 C CNN
@@ -801,7 +800,7 @@ $EndComp
 Wire Wire Line
 	9550 3450 9600 3450
 $Comp
-L R R7
+L R-RESCUE-robotarna_arduino R7
 U 1 1 57E30046
 P 4350 4100
 F 0 "R7" V 4430 4100 50  0000 C CNN
@@ -814,7 +813,7 @@ $EndComp
 Wire Wire Line
 	4700 4100 4600 4100
 $Comp
-L R R1
+L R-RESCUE-robotarna_arduino R1
 U 1 1 57E44C39
 P 1800 4150
 F 0 "R1" V 1880 4150 50  0000 C CNN
@@ -873,7 +872,7 @@ $EndComp
 Text GLabel 1150 5150 0    60   Input ~ 0
 A1
 $Comp
-L R R2
+L R-RESCUE-robotarna_arduino R2
 U 1 1 57E4524A
 P 1800 5150
 F 0 "R2" V 1880 5150 50  0000 C CNN
@@ -884,7 +883,7 @@ F 3 "" H 1800 5150 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C3
+L C-RESCUE-robotarna_arduino C3
 U 1 1 57E46232
 P 6950 3000
 F 0 "C3" V 7050 3150 50  0000 C CNN
@@ -906,7 +905,7 @@ F 3 "" H 6000 3450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R15
+L R-RESCUE-robotarna_arduino R15
 U 1 1 57E468B0
 P 6350 3450
 F 0 "R15" V 6430 3450 50  0000 C CNN
@@ -940,7 +939,7 @@ F 3 "" H 7300 4650 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C1
+L C-RESCUE-robotarna_arduino C1
 U 1 1 57E479A1
 P 6900 4200
 F 0 "C1" V 7000 4350 50  0000 C CNN
@@ -962,7 +961,7 @@ F 3 "" H 5950 4650 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R13
+L R-RESCUE-robotarna_arduino R13
 U 1 1 57E479AD
 P 6300 4650
 F 0 "R13" V 6380 4650 50  0000 C CNN
@@ -996,7 +995,7 @@ F 3 "" H 7300 5900 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C2
+L C-RESCUE-robotarna_arduino C2
 U 1 1 57E47D71
 P 6900 5450
 F 0 "C2" V 7000 5600 50  0000 C CNN
@@ -1018,7 +1017,7 @@ F 3 "" H 5950 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R14
+L R-RESCUE-robotarna_arduino R14
 U 1 1 57E47D7D
 P 6300 5900
 F 0 "R14" V 6380 5900 50  0000 C CNN
@@ -1039,7 +1038,7 @@ Wire Wire Line
 Connection ~ 7200 5900
 Connection ~ 6550 5900
 $Comp
-L R R12
+L R-RESCUE-robotarna_arduino R12
 U 1 1 57E48021
 P 6100 3700
 F 0 "R12" V 6180 3700 50  0000 C CNN
@@ -1061,7 +1060,7 @@ F 3 "" H 6100 3950 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L R R10
+L R-RESCUE-robotarna_arduino R10
 U 1 1 57E4856A
 P 6050 4900
 F 0 "R10" V 6130 4900 50  0000 C CNN
@@ -1072,7 +1071,7 @@ F 3 "" H 6050 4900 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R11
+L R-RESCUE-robotarna_arduino R11
 U 1 1 57E48844
 P 6050 6150
 F 0 "R11" V 6130 6150 50  0000 C CNN
