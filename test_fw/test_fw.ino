@@ -1,3 +1,5 @@
+// You must install the toneAC library to your Arduino developer tools (e. g. Arduino IDE)
+// https://bitbucket.org/teckel12/arduino-toneac/wiki/Home
 #include <toneAC.h>
 #include <DHT.h>
 
