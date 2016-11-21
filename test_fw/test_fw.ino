@@ -1,8 +1,19 @@
 // You must install the toneAC library to your Arduino developer tools (e. g. Arduino IDE)
 // https://bitbucket.org/teckel12/arduino-toneac/wiki/Home
 #include <toneAC.h>
+// You must install the DHT library to your Arduino developer tools 
+// In Arduino IDE - open in Menu "Project" -> "Add library" -> "Library manager" ->
+// -> write "DHT" to searching field
+// -> and install the DHT library "DHT sensor library by Adafruit..." 
+// (switch the version from the latest to 1.2.3)
+// https://github.com/adafruit/DHT-sensor-library
 #include <DHT.h>
 
+// Serial monitor speed (baud rate)
+// You must set this baud rate in right corner in the serial monitor (in Arduino IDE)
+#define SERIAL_BAUDRATE 57600
+
+// Pinout definef
 #define LED_RGB_R      5
 #define LED_RGB_G     11
 #define LED_RGB_B      6
@@ -43,7 +54,7 @@ void setup() {
   pinMode(BUTTON_LEFT, INPUT_PULLUP);
   pinMode(BUTTON_MIDDLE, INPUT_PULLUP);
   pinMode(BUTTON_RIGHT, INPUT_PULLUP);
-  Serial.begin(57600);
+  Serial.begin(SERIAL_BAUDRATE);
   dht.begin();
   Serial.print("Arduino learning kit starter hardware test firmware\n");
 }
