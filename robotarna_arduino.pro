@@ -1,4 +1,4 @@
-update=12.03.2017 23:47:40
+update=30.03.2017 19:56:58
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,8 +23,6 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -202,3 +200,5 @@ LibName160=C:/Program Files/KiCad/share/kicad/library/Worldsemi
 LibName161=C:/Program Files/KiCad/share/kicad/library/Xicor
 LibName162=C:/Program Files/KiCad/share/kicad/library/xilinx
 LibName163=C:/Program Files/KiCad/share/kicad/library/Zilog
+[general]
+version=1

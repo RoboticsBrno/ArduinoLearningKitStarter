@@ -1,4 +1,4 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.6-e0-6349~53~ubuntu16.04.1)
+(kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
 
   (general
     (links 182)
@@ -4010,7 +4010,7 @@
   (gr_text L_B (at 140.96 57.24) (layer F.SilkS) (tstamp 58B176CD)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text L_B (at 148.072 57.24) (layer F.SilkS) (tstamp 58B176AC)
+  (gr_text L_G (at 148.072 57.24) (layer F.SilkS) (tstamp 58B176AC)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text L_Y (at 155.184 57.24) (layer F.SilkS) (tstamp 58B1769A)
