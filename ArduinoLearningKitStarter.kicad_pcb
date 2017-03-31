@@ -5,7 +5,7 @@
     (no_connects 2)
     (area 99.924999 41.384999 169.925001 99.955001)
     (thickness 1.6)
-    (drawings 58)
+    (drawings 60)
     (tracks 767)
     (zones 0)
     (modules 78)
@@ -4161,10 +4161,10 @@
       (xy 0.061258 -0.285272) (xy 0.041266 -0.288819) (xy 0.020829 -0.290983) (xy -0.000003 -0.291716)) (layer B.SilkS) (width 0))
   )
 
-  (module yaqwsx_KiCAD_lib:RV09 (layer F.Cu) (tedit 58DE227C) (tstamp 57E44E53)
+  (module yaqwsx_KiCAD_lib:RV09 (layer F.Cu) (tedit 58DE615B) (tstamp 57E44E53)
     (at 121.656 85.18)
     (path /57E33673)
-    (fp_text reference RV1 (at 5.207 7.112) (layer F.SilkS)
+    (fp_text reference RV1 (at 5.207 7.112) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10k (at 0 -6.5) (layer F.Fab)
@@ -4196,10 +4196,10 @@
     (pad "" thru_hole oval (at 4.9 0 180) (size 2 3.5) (drill oval 1 2.5) (layers *.Cu *.Mask))
   )
 
-  (module yaqwsx_KiCAD_lib:RV09 (layer F.Cu) (tedit 58DE227C) (tstamp 57E44E61)
+  (module yaqwsx_KiCAD_lib:RV09 (layer F.Cu) (tedit 58DE615D) (tstamp 57E44E61)
     (at 135.245 85.18)
     (path /57E45227)
-    (fp_text reference RV2 (at 5.207 7.112) (layer F.SilkS)
+    (fp_text reference RV2 (at 5.207 7.112) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value 10k (at 0 -6.5) (layer F.Fab)
@@ -4231,6 +4231,12 @@
     (pad "" thru_hole oval (at 4.9 0 180) (size 2 3.5) (drill oval 1 2.5) (layers *.Cu *.Mask))
   )
 
+  (gr_text POT2 (at 139.04 92.28) (layer F.SilkS) (tstamp 58DE6190)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
+  (gr_text POT1 (at 125.465 92.28) (layer F.SilkS) (tstamp 58DE618D)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
   (gr_text PIEIZO (at 111.89 59.18 90) (layer F.SilkS) (tstamp 58DE50F5)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
