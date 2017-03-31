@@ -1,11 +1,11 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.4-stable)
+(kicad_pcb (version 4) (host pcbnew 4.0.6)
 
   (general
     (links 182)
     (no_connects 2)
-    (area 93.299999 38.966666 176.557143 103.515)
+    (area 99.924999 41.384999 169.925001 99.955001)
     (thickness 1.6)
-    (drawings 56)
+    (drawings 58)
     (tracks 767)
     (zones 0)
     (modules 78)
@@ -631,10 +631,10 @@
     )
   )
 
-  (module yaqwsx:piezo_12 (layer F.Cu) (tedit 57CBF5A4) (tstamp 58C1A0B7)
+  (module yaqwsx:piezo_12 (layer F.Cu) (tedit 58DE50FF) (tstamp 58C1A0B7)
     (at 120.06 54.71 270)
     (path /57E2F3A6)
-    (fp_text reference PIEIZO1 (at 1.57 8.188 270) (layer F.SilkS)
+    (fp_text reference PIEIZO1 (at 1.57 8.188 270) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value PIEZO (at 0 -7 270) (layer F.Fab)
@@ -2034,12 +2034,12 @@
     )
   )
 
-  (module Resistors_ThroughHole:Resistor_Horizontal_RM7mm (layer F.Cu) (tedit 569FCF07) (tstamp 58C1A0B1)
+  (module Resistors_ThroughHole:Resistor_Horizontal_RM7mm (layer F.Cu) (tedit 58DE50BE) (tstamp 58C1A0B1)
     (at 107.681 43.961)
     (descr "Resistor, Axial,  RM 7.62mm, 1/3W,")
     (tags "Resistor Axial RM 7.62mm 1/3W R3")
     (path /57E3733E)
-    (fp_text reference PHOTO1 (at 0.838 2.667) (layer F.SilkS)
+    (fp_text reference PHOTO1 (at 0.838 2.667) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value Photores (at 3.81 3.81) (layer F.Fab)
@@ -4231,6 +4231,12 @@
     (pad "" thru_hole oval (at 4.9 0 180) (size 2 3.5) (drill oval 1 2.5) (layers *.Cu *.Mask))
   )
 
+  (gr_text PIEIZO (at 111.89 59.18 90) (layer F.SilkS) (tstamp 58DE50F5)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
+  (gr_text PHOTO (at 105.59 46.63) (layer F.SilkS) (tstamp 58DE50DD)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
   (gr_text "Robotarna\nRobotikaBrno" (at 115.39 50.387) (layer B.SilkS) (tstamp 58DE2B1E)
     (effects (font (size 1.4 1.4) (thickness 0.3)) (justify left mirror))
   )
