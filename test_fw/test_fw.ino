@@ -1,6 +1,14 @@
+// test_fw test firmware
+
+// !!! Check your version !!!
+// Uncomment your version  
+//#define ArduinoLearningKitStarter_version_0.1
+#define ArduinoLearningKitStarter_version_2.x
+
 // You must install the toneAC library to your Arduino developer tools (e. g. Arduino IDE)
 // https://bitbucket.org/teckel12/arduino-toneac/wiki/Home
 #include <toneAC.h>
+
 // You must install the DHT library to your Arduino developer tools 
 // In Arduino IDE - open in Menu "Project" -> "Add library" -> "Library manager" ->
 // -> write "DHT" to searching field
@@ -13,50 +21,63 @@
 // You must set this baud rate in right corner in the serial monitor (in Arduino IDE)
 #define SERIAL_BAUDRATE 57600
 
-// Pinout definef
-#define LED_RGB_R      5
-#define LED_RGB_G     11
-#define LED_RGB_B      6
+// Pinout define
+#define L_RGB_R      5
+#define L_RGB_G     11
+#define L_RGB_B      6
   
-#define LED_RED       12
-#define LED_YELLOW    13
-#define LED_GREEN      7
-#define LED_BLUE       8
+#define L_R         12
+#define L_Y         13
+#define L_G          7
+#define L_B          8
 
-#define BUTTON_LEFT    3
-#define BUTTON_MIDDLE  4
-#define BUTTON_RIGHT   2
+#define SW1          2
+#define SW2          4
+#define SW3          3
 
-#define PIN_PIEZO_A    9
-#define PIN_PIEZO_B   10
+#define PIEZO_A      9
+#define PIEZO_B     10
 
-#define POT_RIGHT     A0
-#define POT_LEFT      A1
+#define POT_RIGHT   A0
+#define POT_LEFT    A1
 
-#define LIGHT_SENSOR  A2
+#define PHOTO_SEN   A2
 
-#define DHTPIN     A3
-#define DHTTYPE DHT11
+#define DHTPIN      A3
+#define DHTTYPE  DHT11
+
+#ifdef ArduinoLearningKitStarter_version_2.x
+#define SW1          2
+#define SW2          3
+#define SW3          4
+
+#define SERVOS_ON
+#define S1           5
+#define S2           6
+#define S3           9
+#define S4          10
+#define S5          11
+#endif
 
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
   // RGB led
-  pinMode(LED_RGB_R, OUTPUT);
-  pinMode(LED_RGB_G, OUTPUT);
-  pinMode(LED_RGB_B, OUTPUT);
-  pinMode(LED_RED, OUTPUT);
-  pinMode(LED_YELLOW, OUTPUT);
-  pinMode(LED_GREEN, OUTPUT);
-  pinMode(LED_BLUE, OUTPUT);
-  pinMode(PIN_PIEZO_A, OUTPUT);
-  pinMode(PIN_PIEZO_B, OUTPUT);
-  pinMode(BUTTON_LEFT, INPUT_PULLUP);
-  pinMode(BUTTON_MIDDLE, INPUT_PULLUP);
-  pinMode(BUTTON_RIGHT, INPUT_PULLUP);
+  pinMode(L_RGB_R, OUTPUT);
+  pinMode(L_RGB_G, OUTPUT);
+  pinMode(L_RGB_B, OUTPUT);
+  pinMode(L_R, OUTPUT);
+  pinMode(L_Y, OUTPUT);
+  pinMode(L_G, OUTPUT);
+  pinMode(L_B, OUTPUT);
+  pinMode(PIEZO_A, OUTPUT);
+  pinMode(PIEZO_B, OUTPUT);
+  pinMode(SW3, INPUT_PULLUP);
+  pinMode(SW2, INPUT_PULLUP);
+  pinMode(SW1, INPUT_PULLUP);
   Serial.begin(SERIAL_BAUDRATE);
   dht.begin();
-  Serial.print("Arduino learning kit starter hardware test firmware\n");
+  Serial.print("Arduino learning kit starter hardware test firmware\n");  
 }
 
 unsigned long t_inc = 0;
@@ -65,24 +86,24 @@ uint8_t cnt = 0;
 bool beeping = false;
 
 void loop() {
-//  digitalWrite(LED_RGB_R, HIGH);
+//  digitalWrite(L_RGB_R, HIGH);
 //  delay(500);
-//  digitalWrite(LED_RGB_R, LOW);
-//  digitalWrite(LED_RGB_G, HIGH);
+//  digitalWrite(L_RGB_R, LOW);
+//  digitalWrite(L_RGB_G, HIGH);
 //  delay(500);
-//  digitalWrite(LED_RGB_G, LOW);
-//  digitalWrite(LED_RGB_B, HIGH);
+//  digitalWrite(L_RGB_G, LOW);
+//  digitalWrite(L_RGB_B, HIGH);
 //  delay(500);
-//  digitalWrite(LED_RGB_B, LOW);
+//  digitalWrite(L_RGB_B, LOW);
 //  delay(500);
   if((millis() - t_inc) >= 500)
   {
     t_inc = millis();
     ++cnt;
-    digitalWrite(LED_RED   , cnt & 1 ? HIGH : LOW);
-    digitalWrite(LED_YELLOW, cnt & 2 ? HIGH : LOW);
-    digitalWrite(LED_GREEN , cnt & 4 ? HIGH : LOW);
-    digitalWrite(LED_BLUE  , cnt & 8 ? HIGH : LOW);
+    digitalWrite(L_R , cnt & 1 ? HIGH : LOW);
+    digitalWrite(L_Y , cnt & 2 ? HIGH : LOW);
+    digitalWrite(L_G , cnt & 4 ? HIGH : LOW);
+    digitalWrite(L_B , cnt & 8 ? HIGH : LOW);
   }
 
   if((millis() - t_meas) >= 500)
@@ -99,7 +120,7 @@ void loop() {
       Serial.print(int(t));
     }
     Serial.print("\tlight: ");
-    Serial.print(analogRead(LIGHT_SENSOR));
+    Serial.print(analogRead(PHOTO_SEN));
     Serial.print("\tleft pot: ");
     Serial.print(analogRead(POT_LEFT));
     Serial.print("\tright pot: ");
@@ -107,12 +128,12 @@ void loop() {
     Serial.print("\n");
   }
   
-  digitalWrite(LED_RGB_R, digitalRead(BUTTON_LEFT)   == HIGH ? LOW : HIGH);
-  digitalWrite(LED_RGB_G, digitalRead(BUTTON_MIDDLE) == HIGH ? LOW : HIGH);
-  //digitalWrite(LED_RGB_G, !beeping ? LOW : HIGH);
-  digitalWrite(LED_RGB_B, digitalRead(BUTTON_RIGHT)  == HIGH ? LOW : HIGH);
+  digitalWrite(L_RGB_R, digitalRead(SW3)   == HIGH ? LOW : HIGH);
+  digitalWrite(L_RGB_G, digitalRead(SW2) == HIGH ? LOW : HIGH);
+  //digitalWrite(L_RGB_G, !beeping ? LOW : HIGH);
+  digitalWrite(L_RGB_B, digitalRead(SW1)  == HIGH ? LOW : HIGH);
 
-  if(digitalRead(BUTTON_RIGHT) == LOW && digitalRead(BUTTON_LEFT) == LOW)
+  if(digitalRead(SW1) == LOW && digitalRead(SW3) == LOW)
   {
     if(!beeping)
     {
