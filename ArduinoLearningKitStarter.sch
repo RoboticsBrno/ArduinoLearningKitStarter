@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:robotarna_arduino-rescue
+LIBS:ArduinoLearningKitStarter-rescue
 LIBS:74xgxx
 LIBS:74xx
 LIBS:ac-dc
@@ -80,7 +80,6 @@ LIBS:Worldsemi
 LIBS:Xicor
 LIBS:xilinx
 LIBS:Zilog
-LIBS:robotarna_arduino-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1150,7 +1149,7 @@ F 3 "" H 1000 5800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L USB_OTG-RESCUE-robotarna_arduino J1
+L USB_OTG J1
 U 1 1 58C23B71
 P 1150 6750
 F 0 "J1" H 950 7200 50  0000 L CNN
@@ -1492,7 +1491,9 @@ Wire Wire Line
 Wire Wire Line
 	9050 4850 9050 5300
 Wire Wire Line
-	9000 5300 9150 5300
+	9000 5300 9050 5300
+Wire Wire Line
+	9050 5300 9150 5300
 Connection ~ 9050 5300
 Connection ~ 8400 5300
 Wire Wire Line
@@ -1502,7 +1503,9 @@ Wire Wire Line
 Wire Wire Line
 	9050 3050 9050 3500
 Wire Wire Line
-	9000 3500 9150 3500
+	9000 3500 9050 3500
+Wire Wire Line
+	9050 3500 9150 3500
 Connection ~ 9050 3500
 Connection ~ 8400 3500
 Wire Wire Line
@@ -1512,7 +1515,9 @@ Wire Wire Line
 Wire Wire Line
 	9050 3850 9050 4300
 Wire Wire Line
-	9000 4300 9150 4300
+	9000 4300 9050 4300
+Wire Wire Line
+	9050 4300 9150 4300
 Connection ~ 9050 4300
 Connection ~ 8400 4300
 Wire Wire Line
@@ -1542,19 +1547,41 @@ Wire Wire Line
 Wire Wire Line
 	1650 6300 1650 6550
 Wire Wire Line
-	1450 6550 1750 6550
+	1450 6550 1650 6550
+Wire Wire Line
+	1650 6550 1750 6550
 Connection ~ 1650 6550
 Connection ~ 4400 3750
 Connection ~ 4400 3850
 Connection ~ 4400 3950
 Wire Wire Line
-	4400 4350 4400 4850
+	4400 4350 4400 4450
+Wire Wire Line
+	4400 4450 4400 4550
+Wire Wire Line
+	4400 4550 4400 4650
+Wire Wire Line
+	4400 4650 4400 4750
+Wire Wire Line
+	4400 4750 4400 4850
 Connection ~ 4400 4450
 Connection ~ 4400 4550
 Connection ~ 4400 4650
 Connection ~ 4400 4750
 Wire Wire Line
-	4400 5150 4400 5850
+	4400 5150 4400 5250
+Wire Wire Line
+	4400 5250 4400 5350
+Wire Wire Line
+	4400 5350 4400 5450
+Wire Wire Line
+	4400 5450 4400 5550
+Wire Wire Line
+	4400 5550 4400 5650
+Wire Wire Line
+	4400 5650 4400 5750
+Wire Wire Line
+	4400 5750 4400 5850
 Connection ~ 4400 5250
 Connection ~ 4400 5350
 Connection ~ 4400 5450
@@ -1562,7 +1589,23 @@ Connection ~ 4400 5550
 Connection ~ 4400 5650
 Connection ~ 4400 5750
 Wire Wire Line
-	4400 6200 4400 7100
+	4400 6200 4400 6300
+Wire Wire Line
+	4400 6300 4400 6400
+Wire Wire Line
+	4400 6400 4400 6500
+Wire Wire Line
+	4400 6500 4400 6600
+Wire Wire Line
+	4400 6600 4400 6700
+Wire Wire Line
+	4400 6700 4400 6800
+Wire Wire Line
+	4400 6800 4400 6900
+Wire Wire Line
+	4400 6900 4400 7000
+Wire Wire Line
+	4400 7000 4400 7100
 Connection ~ 4400 6300
 Connection ~ 4400 6400
 Connection ~ 4400 6500
@@ -1572,7 +1615,11 @@ Connection ~ 4400 6800
 Connection ~ 4400 6900
 Connection ~ 4400 7000
 Wire Wire Line
-	4400 3750 4400 4050
+	4400 3750 4400 3850
+Wire Wire Line
+	4400 3850 4400 3950
+Wire Wire Line
+	4400 3950 4400 4050
 $Comp
 L GND #PWR042
 U 1 1 58C33A9B
