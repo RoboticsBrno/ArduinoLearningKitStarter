@@ -1,85 +1,88 @@
 EESchema Schematic File Version 2
 LIBS:ArduinoLearningKitStarter-rescue
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microcontrollers
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
+LIBS:Zilog
+LIBS:xilinx
+LIBS:Xicor
+LIBS:Worldsemi
+LIBS:video
+LIBS:valves
+LIBS:ttl_ieee
+LIBS:transistors
+LIBS:transf
+LIBS:texas
+LIBS:switches
+LIBS:supertex
+LIBS:stm32
+LIBS:stm8
+LIBS:siliconi
+LIBS:silabs
+LIBS:sensors
+LIBS:rfcom
+LIBS:relays
+LIBS:regul
+LIBS:references
+LIBS:pspice
 LIBS:Power_Management
 LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
+LIBS:power
+LIBS:philips
+LIBS:Oscillators
+LIBS:opto
+LIBS:onsemi
+LIBS:nxp_armmcu
+LIBS:nordicsemi
+LIBS:msp430
+LIBS:motorola
+LIBS:motor_drivers
+LIBS:microchip_pic32mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic10mcu
+LIBS:microchip_dspic33dsc
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:memory
+LIBS:maxim
+LIBS:logo
+LIBS:linear
+LIBS:Lattice
+LIBS:ir
+LIBS:interface
+LIBS:intel
+LIBS:hc11
+LIBS:graphic
+LIBS:gennum
+LIBS:ftdi
+LIBS:ESD_Protection
+LIBS:elec-unifil
+LIBS:dsp
+LIBS:display
+LIBS:diode
+LIBS:digital-audio
+LIBS:device
+LIBS:dc-dc
+LIBS:cypress
+LIBS:contrib
+LIBS:conn
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:brooktre
+LIBS:bbd
+LIBS:battery_management
+LIBS:audio
+LIBS:atmel
+LIBS:analog_switches
+LIBS:analog_devices
+LIBS:Altera
+LIBS:adc-dac
+LIBS:actel
+LIBS:ac-dc
+LIBS:74xx
+LIBS:74xgxx
+LIBS:shield_arduino
+LIBS:yaqwsx
+LIBS:ArduinoLearningKitStarter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1491,9 +1494,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 4850 9050 5300
 Wire Wire Line
-	9000 5300 9050 5300
-Wire Wire Line
-	9050 5300 9150 5300
+	9000 5300 9150 5300
 Connection ~ 9050 5300
 Connection ~ 8400 5300
 Wire Wire Line
@@ -1503,9 +1504,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 3050 9050 3500
 Wire Wire Line
-	9000 3500 9050 3500
-Wire Wire Line
-	9050 3500 9150 3500
+	9000 3500 9150 3500
 Connection ~ 9050 3500
 Connection ~ 8400 3500
 Wire Wire Line
@@ -1515,9 +1514,7 @@ Wire Wire Line
 Wire Wire Line
 	9050 3850 9050 4300
 Wire Wire Line
-	9000 4300 9050 4300
-Wire Wire Line
-	9050 4300 9150 4300
+	9000 4300 9150 4300
 Connection ~ 9050 4300
 Connection ~ 8400 4300
 Wire Wire Line
@@ -1547,41 +1544,19 @@ Wire Wire Line
 Wire Wire Line
 	1650 6300 1650 6550
 Wire Wire Line
-	1450 6550 1650 6550
-Wire Wire Line
-	1650 6550 1750 6550
+	1450 6550 1750 6550
 Connection ~ 1650 6550
 Connection ~ 4400 3750
 Connection ~ 4400 3850
 Connection ~ 4400 3950
 Wire Wire Line
-	4400 4350 4400 4450
-Wire Wire Line
-	4400 4450 4400 4550
-Wire Wire Line
-	4400 4550 4400 4650
-Wire Wire Line
-	4400 4650 4400 4750
-Wire Wire Line
-	4400 4750 4400 4850
+	4400 4350 4400 4850
 Connection ~ 4400 4450
 Connection ~ 4400 4550
 Connection ~ 4400 4650
 Connection ~ 4400 4750
 Wire Wire Line
-	4400 5150 4400 5250
-Wire Wire Line
-	4400 5250 4400 5350
-Wire Wire Line
-	4400 5350 4400 5450
-Wire Wire Line
-	4400 5450 4400 5550
-Wire Wire Line
-	4400 5550 4400 5650
-Wire Wire Line
-	4400 5650 4400 5750
-Wire Wire Line
-	4400 5750 4400 5850
+	4400 5150 4400 5850
 Connection ~ 4400 5250
 Connection ~ 4400 5350
 Connection ~ 4400 5450
@@ -1589,23 +1564,7 @@ Connection ~ 4400 5550
 Connection ~ 4400 5650
 Connection ~ 4400 5750
 Wire Wire Line
-	4400 6200 4400 6300
-Wire Wire Line
-	4400 6300 4400 6400
-Wire Wire Line
-	4400 6400 4400 6500
-Wire Wire Line
-	4400 6500 4400 6600
-Wire Wire Line
-	4400 6600 4400 6700
-Wire Wire Line
-	4400 6700 4400 6800
-Wire Wire Line
-	4400 6800 4400 6900
-Wire Wire Line
-	4400 6900 4400 7000
-Wire Wire Line
-	4400 7000 4400 7100
+	4400 6200 4400 7100
 Connection ~ 4400 6300
 Connection ~ 4400 6400
 Connection ~ 4400 6500
@@ -1615,11 +1574,7 @@ Connection ~ 4400 6800
 Connection ~ 4400 6900
 Connection ~ 4400 7000
 Wire Wire Line
-	4400 3750 4400 3850
-Wire Wire Line
-	4400 3850 4400 3950
-Wire Wire Line
-	4400 3950 4400 4050
+	4400 3750 4400 4050
 $Comp
 L GND #PWR042
 U 1 1 58C33A9B
@@ -1772,4 +1727,94 @@ Wire Wire Line
 	8400 3350 8400 3500
 Text GLabel 7700 3500 0    60   Input ~ 0
 D2
+$Comp
+L C_Small C4
+U 1 1 58DE66DE
+P 1700 3800
+F 0 "C4" H 1710 3870 50  0000 L CNN
+F 1 "C_Small" H 1710 3720 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1700 3800 50  0001 C CNN
+F 3 "" H 1700 3800 50  0001 C CNN
+	1    1700 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 3800 1450 3800
+Wire Wire Line
+	1450 3800 1450 3900
+Wire Wire Line
+	1450 3900 1700 3900
+$Comp
+L C_Small C5
+U 1 1 58DE6B28
+P 1700 4400
+F 0 "C5" H 1710 4470 50  0000 L CNN
+F 1 "C_Small" H 1710 4320 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1700 4400 50  0001 C CNN
+F 3 "" H 1700 4400 50  0001 C CNN
+	1    1700 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 4500 1450 4500
+Wire Wire Line
+	1450 4500 1450 4400
+Wire Wire Line
+	1450 4400 1200 4400
+$Comp
+L C_Small C6
+U 1 1 58DE6CDD
+P 1700 4900
+F 0 "C6" H 1710 4970 50  0000 L CNN
+F 1 "C_Small" H 1710 4820 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1700 4900 50  0001 C CNN
+F 3 "" H 1700 4900 50  0001 C CNN
+	1    1700 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5000 1450 5000
+Wire Wire Line
+	1450 5000 1450 4900
+Wire Wire Line
+	1450 4900 1200 4900
+$Comp
+L C_Small C7
+U 1 1 58DE7055
+P 1700 5400
+F 0 "C7" H 1710 5470 50  0000 L CNN
+F 1 "C_Small" H 1710 5320 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1700 5400 50  0001 C CNN
+F 3 "" H 1700 5400 50  0001 C CNN
+	1    1700 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 5500 1450 5500
+Wire Wire Line
+	1450 5500 1450 5400
+Wire Wire Line
+	1450 5400 1200 5400
+$Comp
+L C_Small C8
+U 1 1 58DE720C
+P 1900 5900
+F 0 "C8" H 1910 5970 50  0000 L CNN
+F 1 "C_Small" H 1910 5820 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1900 5900 50  0001 C CNN
+F 3 "" H 1900 5900 50  0001 C CNN
+	1    1900 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 6000 1800 6000
+Wire Wire Line
+	1800 6000 1800 5900
+Wire Wire Line
+	1800 5900 1200 5900
+Connection ~ 1700 4300
+Connection ~ 1700 3700
+Connection ~ 1700 4800
+Connection ~ 1700 5300
+Connection ~ 1900 5800
 $EndSCHEMATC
