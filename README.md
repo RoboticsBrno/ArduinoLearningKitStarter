@@ -29,9 +29,17 @@ kitu znemožňovala funkci shieldu, je možné ji přes pájecí můstek odpojit
 
 Jak s naším kitem začít? Postupuj podle [Wiki stránky](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/wiki).
 
-![photo_v2_top.jpg](photo_v2_top.jpg)
+![/media/ALKS_v2.0_2.01_top.JPG](/media/ALKS_v2.0_2.01_top.JPG)
 
-![photo_v2_bottom.jpg](photo_v2_bottom.jpg)
+![/media/ALKS_v2.0_2.02_top+nano.JPG](/media/ALKS_v2.0_2.02_top+nano.JPG)
+
+![/media/ALKS_v2.0_2.03_trig+nano.JPG](/media/ALKS_v2.0_2.03_trig+nano.JPG)
+
+![/media/ALKS_v2.0_3.00_top.JPG](/media/ALKS_v2.0_3.00_top.JPG)
+
+![/media/ALKS_v2.0_3.01_bot.JPG](/media/ALKS_v2.0_3.01_bot.JPG)
+
+![/media/ALKS_v2.0_3.02_trig+nano.JPG](/media/ALKS_v2.0_3.02_trig+nano.JPG)
 
 ## English Version
 
