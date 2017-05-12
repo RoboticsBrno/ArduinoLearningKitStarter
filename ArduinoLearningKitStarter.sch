@@ -1,85 +1,87 @@
 EESchema Schematic File Version 2
 LIBS:ArduinoLearningKitStarter-rescue
-LIBS:74xgxx
-LIBS:74xx
-LIBS:ac-dc
-LIBS:actel
-LIBS:adc-dac
-LIBS:Altera
-LIBS:analog_devices
-LIBS:analog_switches
-LIBS:atmel
-LIBS:audio
-LIBS:battery_management
-LIBS:bbd
-LIBS:brooktre
-LIBS:cmos_ieee
-LIBS:cmos4000
-LIBS:conn
-LIBS:contrib
-LIBS:cypress
-LIBS:dc-dc
-LIBS:device
-LIBS:digital-audio
-LIBS:diode
-LIBS:display
-LIBS:dsp
-LIBS:elec-unifil
-LIBS:ESD_Protection
-LIBS:ftdi
-LIBS:gennum
-LIBS:graphic
-LIBS:hc11
-LIBS:intel
-LIBS:interface
-LIBS:ir
-LIBS:Lattice
-LIBS:linear
-LIBS:logo
-LIBS:maxim
-LIBS:memory
-LIBS:microcontrollers
-LIBS:microchip
-LIBS:microchip_dspic33dsc
-LIBS:microchip_pic10mcu
-LIBS:microchip_pic12mcu
-LIBS:microchip_pic16mcu
-LIBS:microchip_pic18mcu
-LIBS:microchip_pic32mcu
-LIBS:motor_drivers
-LIBS:motorola
-LIBS:msp430
-LIBS:nordicsemi
-LIBS:nxp_armmcu
-LIBS:onsemi
-LIBS:opto
-LIBS:Oscillators
-LIBS:philips
-LIBS:power
+LIBS:Zilog
+LIBS:xilinx
+LIBS:Xicor
+LIBS:Worldsemi
+LIBS:video
+LIBS:valves
+LIBS:ttl_ieee
+LIBS:transistors
+LIBS:transf
+LIBS:texas
+LIBS:switches
+LIBS:supertex
+LIBS:stm32
+LIBS:stm8
+LIBS:siliconi
+LIBS:silabs
+LIBS:sensors
+LIBS:rfcom
+LIBS:relays
+LIBS:regul
+LIBS:references
+LIBS:pspice
 LIBS:Power_Management
 LIBS:powerint
-LIBS:pspice
-LIBS:references
-LIBS:regul
-LIBS:relays
-LIBS:rfcom
-LIBS:sensors
-LIBS:silabs
-LIBS:siliconi
-LIBS:stm8
-LIBS:stm32
-LIBS:supertex
-LIBS:switches
-LIBS:texas
-LIBS:transf
-LIBS:transistors
-LIBS:ttl_ieee
-LIBS:valves
-LIBS:video
-LIBS:Worldsemi
-LIBS:Xicor
-LIBS:xilinx
-LIBS:Zilog
+LIBS:power
+LIBS:philips
+LIBS:Oscillators
+LIBS:opto
+LIBS:onsemi
+LIBS:nxp_armmcu
+LIBS:nordicsemi
+LIBS:msp430
+LIBS:motorola
+LIBS:motor_drivers
+LIBS:microchip_pic32mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic10mcu
+LIBS:microchip_dspic33dsc
+LIBS:microchip
+LIBS:microcontrollers
+LIBS:memory
+LIBS:maxim
+LIBS:logo
+LIBS:linear
+LIBS:Lattice
+LIBS:ir
+LIBS:interface
+LIBS:intel
+LIBS:hc11
+LIBS:graphic
+LIBS:gennum
+LIBS:ftdi
+LIBS:ESD_Protection
+LIBS:elec-unifil
+LIBS:dsp
+LIBS:display
+LIBS:diode
+LIBS:digital-audio
+LIBS:device
+LIBS:dc-dc
+LIBS:cypress
+LIBS:contrib
+LIBS:conn
+LIBS:cmos_ieee
+LIBS:cmos4000
+LIBS:brooktre
+LIBS:bbd
+LIBS:battery_management
+LIBS:audio
+LIBS:atmel
+LIBS:analog_switches
+LIBS:analog_devices
+LIBS:Altera
+LIBS:adc-dac
+LIBS:actel
+LIBS:ac-dc
+LIBS:74xx
+LIBS:74xgxx
+LIBS:shield_arduino
+LIBS:yaqwsx
 LIBS:ArduinoLearningKitStarter-cache
 EELAYER 25 0
 EELAYER END
@@ -98,237 +100,237 @@ $EndDescr
 $Comp
 L arduino_nano U1
 U 1 1 57E2ED37
-P 4100 1850
-F 0 "U1" H 4100 2650 60  0000 C CNN
-F 1 "arduino_nano" H 4100 1050 60  0000 C CNN
-F 2 "yaqwsx:arduino_nano" H 3800 2100 60  0001 C CNN
-F 3 "" H 3800 2100 60  0000 C CNN
-	1    4100 1850
+P 6100 1650
+F 0 "U1" H 6100 2450 60  0000 C CNN
+F 1 "arduino_nano" H 6100 850 60  0000 C CNN
+F 2 "yaqwsx:arduino_nano" H 5800 1900 60  0001 C CNN
+F 3 "" H 5800 1900 60  0000 C CNN
+	1    6100 1650
 	1    0    0    -1  
 $EndComp
 $Comp
 L arduino_uno U2
 U 1 1 57E2EE30
-P 7450 1700
-F 0 "U2" H 7450 2700 60  0000 C CNN
-F 1 "arduino_uno" H 7450 700 60  0000 C CNN
-F 2 "yaqwsx:arduino_uno_small_pads" H 7250 1300 60  0001 C CNN
-F 3 "" H 7250 1300 60  0001 C CNN
-	1    7450 1700
+P 8700 1700
+F 0 "U2" H 8700 2700 60  0000 C CNN
+F 1 "arduino_uno" H 8700 700 60  0000 C CNN
+F 2 "yaqwsx:arduino_uno_small_pads" H 8500 1300 60  0001 C CNN
+F 3 "" H 8500 1300 60  0001 C CNN
+	1    8700 1700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6700 1200
-Text GLabel 3300 1150 0    60   Input ~ 0
+NoConn ~ 7950 1200
+Text GLabel 5300 950  0    60   Input ~ 0
 D13
-Text GLabel 3300 1350 0    60   Input ~ 0
+Text GLabel 5300 1150 0    60   Input ~ 0
 AREF
-Text GLabel 3300 1450 0    60   Input ~ 0
+Text GLabel 5300 1250 0    60   Input ~ 0
 A0
-Text GLabel 3300 1550 0    60   Input ~ 0
+Text GLabel 5300 1350 0    60   Input ~ 0
 A1
-Text GLabel 3300 1650 0    60   Input ~ 0
+Text GLabel 5300 1450 0    60   Input ~ 0
 A2
-Text GLabel 3300 1750 0    60   Input ~ 0
+Text GLabel 5300 1550 0    60   Input ~ 0
 A3
-Text GLabel 3300 1850 0    60   Input ~ 0
+Text GLabel 5300 1650 0    60   Input ~ 0
 A4
-Text GLabel 3300 1950 0    60   Input ~ 0
+Text GLabel 5300 1750 0    60   Input ~ 0
 A5
-Text GLabel 3300 2050 0    60   Input ~ 0
+Text GLabel 5300 1850 0    60   Input ~ 0
 A6
-Text GLabel 3300 2150 0    60   Input ~ 0
+Text GLabel 5300 1950 0    60   Input ~ 0
 A7
-Text GLabel 3300 2350 0    60   Input ~ 0
+Text GLabel 5300 2150 0    60   Input ~ 0
 RST
-Text GLabel 4850 1150 2    60   Input ~ 0
+Text GLabel 6850 950  2    60   Input ~ 0
 D12
-Text GLabel 4850 1250 2    60   Input ~ 0
+Text GLabel 6850 1050 2    60   Input ~ 0
 D11
-Text GLabel 4850 1350 2    60   Input ~ 0
+Text GLabel 6850 1150 2    60   Input ~ 0
 D10
-Text GLabel 4850 1450 2    60   Input ~ 0
+Text GLabel 6850 1250 2    60   Input ~ 0
 D9
-Text GLabel 4850 1550 2    60   Input ~ 0
+Text GLabel 6850 1350 2    60   Input ~ 0
 D8
-Text GLabel 4850 1650 2    60   Input ~ 0
+Text GLabel 6850 1450 2    60   Input ~ 0
 D7
-Text GLabel 4850 1750 2    60   Input ~ 0
+Text GLabel 6850 1550 2    60   Input ~ 0
 D6
-Text GLabel 4850 1850 2    60   Input ~ 0
+Text GLabel 6850 1650 2    60   Input ~ 0
 D5
-Text GLabel 4850 1950 2    60   Input ~ 0
+Text GLabel 6850 1750 2    60   Input ~ 0
 D4
-Text GLabel 4850 2050 2    60   Input ~ 0
+Text GLabel 6850 1850 2    60   Input ~ 0
 D3
-Text GLabel 4850 2150 2    60   Input ~ 0
+Text GLabel 6850 1950 2    60   Input ~ 0
 D2
-Text GLabel 4850 2350 2    60   Input ~ 0
+Text GLabel 6850 2150 2    60   Input ~ 0
 RST
-Text GLabel 4850 2450 2    60   Input ~ 0
+Text GLabel 6850 2250 2    60   Input ~ 0
 D0
-Text GLabel 4850 2550 2    60   Input ~ 0
+Text GLabel 6850 2350 2    60   Input ~ 0
 D1
-Text GLabel 6700 1400 0    60   Input ~ 0
+Text GLabel 7950 1400 0    60   Input ~ 0
 RST
-Text GLabel 6700 2100 0    60   Input ~ 0
+Text GLabel 7950 2100 0    60   Input ~ 0
 A0
-Text GLabel 6700 2200 0    60   Input ~ 0
+Text GLabel 7950 2200 0    60   Input ~ 0
 A1
-Text GLabel 6700 2300 0    60   Input ~ 0
+Text GLabel 7950 2300 0    60   Input ~ 0
 A2
-Text GLabel 6700 2400 0    60   Input ~ 0
+Text GLabel 7950 2400 0    60   Input ~ 0
 A3
-Text GLabel 6700 2500 0    60   Input ~ 0
+Text GLabel 7950 2500 0    60   Input ~ 0
 A4
-Text GLabel 6700 2600 0    60   Input ~ 0
+Text GLabel 7950 2600 0    60   Input ~ 0
 A5
-Text GLabel 8200 800  2    60   Input ~ 0
+Text GLabel 9450 800  2    60   Input ~ 0
 A5
-Text GLabel 8200 900  2    60   Input ~ 0
+Text GLabel 9450 900  2    60   Input ~ 0
 A4
-Text GLabel 8200 1000 2    60   Input ~ 0
+Text GLabel 9450 1000 2    60   Input ~ 0
 AREF
-Text GLabel 8200 1200 2    60   Input ~ 0
+Text GLabel 9450 1200 2    60   Input ~ 0
 D13
-Text GLabel 8200 1300 2    60   Input ~ 0
+Text GLabel 9450 1300 2    60   Input ~ 0
 D12
-Text GLabel 8200 1400 2    60   Input ~ 0
+Text GLabel 9450 1400 2    60   Input ~ 0
 D11
-Text GLabel 8200 1500 2    60   Input ~ 0
+Text GLabel 9450 1500 2    60   Input ~ 0
 D10
-Text GLabel 8200 1600 2    60   Input ~ 0
+Text GLabel 9450 1600 2    60   Input ~ 0
 D9
-Text GLabel 8200 1700 2    60   Input ~ 0
+Text GLabel 9450 1700 2    60   Input ~ 0
 D8
-Text GLabel 8200 1900 2    60   Input ~ 0
+Text GLabel 9450 1900 2    60   Input ~ 0
 D7
-Text GLabel 8200 2000 2    60   Input ~ 0
+Text GLabel 9450 2000 2    60   Input ~ 0
 D6
-Text GLabel 8200 2100 2    60   Input ~ 0
+Text GLabel 9450 2100 2    60   Input ~ 0
 D5
-Text GLabel 8200 2200 2    60   Input ~ 0
+Text GLabel 9450 2200 2    60   Input ~ 0
 D4
-Text GLabel 8200 2300 2    60   Input ~ 0
+Text GLabel 9450 2300 2    60   Input ~ 0
 D3
-Text GLabel 8200 2400 2    60   Input ~ 0
+Text GLabel 9450 2400 2    60   Input ~ 0
 D2
-Text GLabel 8200 2500 2    60   Input ~ 0
+Text GLabel 9450 2500 2    60   Input ~ 0
 D1
-Text GLabel 8200 2600 2    60   Input ~ 0
+Text GLabel 9450 2600 2    60   Input ~ 0
 D0
 $Comp
 L +3V3 #PWR01
 U 1 1 57E2F0DE
-P 2850 1250
-F 0 "#PWR01" H 2850 1100 50  0001 C CNN
-F 1 "+3V3" H 2850 1390 50  0000 C CNN
-F 2 "" H 2850 1250 50  0000 C CNN
-F 3 "" H 2850 1250 50  0000 C CNN
-	1    2850 1250
+P 4850 1050
+F 0 "#PWR01" H 4850 900 50  0001 C CNN
+F 1 "+3V3" H 4850 1190 50  0000 C CNN
+F 2 "" H 4850 1050 50  0000 C CNN
+F 3 "" H 4850 1050 50  0000 C CNN
+	1    4850 1050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L +3V3 #PWR02
 U 1 1 57E2F0F6
-P 6300 1500
-F 0 "#PWR02" H 6300 1350 50  0001 C CNN
-F 1 "+3V3" H 6300 1640 50  0000 C CNN
-F 2 "" H 6300 1500 50  0000 C CNN
-F 3 "" H 6300 1500 50  0000 C CNN
-	1    6300 1500
+P 7550 1500
+F 0 "#PWR02" H 7550 1350 50  0001 C CNN
+F 1 "+3V3" H 7550 1640 50  0000 C CNN
+F 2 "" H 7550 1500 50  0000 C CNN
+F 3 "" H 7550 1500 50  0000 C CNN
+	1    7550 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L +5V #PWR03
 U 1 1 57E2F11D
-P 2800 2250
-F 0 "#PWR03" H 2800 2100 50  0001 C CNN
-F 1 "+5V" H 2800 2390 50  0000 C CNN
-F 2 "" H 2800 2250 50  0000 C CNN
-F 3 "" H 2800 2250 50  0000 C CNN
-	1    2800 2250
+P 4800 2050
+F 0 "#PWR03" H 4800 1900 50  0001 C CNN
+F 1 "+5V" H 4800 2190 50  0000 C CNN
+F 2 "" H 4800 2050 50  0000 C CNN
+F 3 "" H 4800 2050 50  0000 C CNN
+	1    4800 2050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR04
 U 1 1 57E2F135
-P 2850 2450
-F 0 "#PWR04" H 2850 2200 50  0001 C CNN
-F 1 "GND" H 2850 2300 50  0000 C CNN
-F 2 "" H 2850 2450 50  0000 C CNN
-F 3 "" H 2850 2450 50  0000 C CNN
-	1    2850 2450
+P 4850 2250
+F 0 "#PWR04" H 4850 2000 50  0001 C CNN
+F 1 "GND" H 4850 2100 50  0000 C CNN
+F 2 "" H 4850 2250 50  0000 C CNN
+F 3 "" H 4850 2250 50  0000 C CNN
+	1    4850 2250
 	0    1    1    0   
 $EndComp
 $Comp
 L VCC #PWR05
 U 1 1 57E2F14D
-P 3050 2550
-F 0 "#PWR05" H 3050 2400 50  0001 C CNN
-F 1 "VCC" H 3050 2700 50  0000 C CNN
-F 2 "" H 3050 2550 50  0000 C CNN
-F 3 "" H 3050 2550 50  0000 C CNN
-	1    3050 2550
+P 5050 2350
+F 0 "#PWR05" H 5050 2200 50  0001 C CNN
+F 1 "VCC" H 5050 2500 50  0000 C CNN
+F 2 "" H 5050 2350 50  0000 C CNN
+F 3 "" H 5050 2350 50  0000 C CNN
+	1    5050 2350
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR06
 U 1 1 57E2F1D1
-P 5100 2250
-F 0 "#PWR06" H 5100 2000 50  0001 C CNN
-F 1 "GND" H 5100 2100 50  0000 C CNN
-F 2 "" H 5100 2250 50  0000 C CNN
-F 3 "" H 5100 2250 50  0000 C CNN
-	1    5100 2250
+P 7100 2050
+F 0 "#PWR06" H 7100 1800 50  0001 C CNN
+F 1 "GND" H 7100 1900 50  0000 C CNN
+F 2 "" H 7100 2050 50  0000 C CNN
+F 3 "" H 7100 2050 50  0000 C CNN
+	1    7100 2050
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR07
 U 1 1 57E2F21B
-P 6100 1700
-F 0 "#PWR07" H 6100 1450 50  0001 C CNN
-F 1 "GND" H 6100 1550 50  0000 C CNN
-F 2 "" H 6100 1700 50  0000 C CNN
-F 3 "" H 6100 1700 50  0000 C CNN
-	1    6100 1700
+P 7350 1700
+F 0 "#PWR07" H 7350 1450 50  0001 C CNN
+F 1 "GND" H 7350 1550 50  0000 C CNN
+F 2 "" H 7350 1700 50  0000 C CNN
+F 3 "" H 7350 1700 50  0000 C CNN
+	1    7350 1700
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR08
 U 1 1 57E2F238
-P 8550 1100
-F 0 "#PWR08" H 8550 850 50  0001 C CNN
-F 1 "GND" H 8550 950 50  0000 C CNN
-F 2 "" H 8550 1100 50  0000 C CNN
-F 3 "" H 8550 1100 50  0000 C CNN
-	1    8550 1100
+P 9800 1100
+F 0 "#PWR08" H 9800 850 50  0001 C CNN
+F 1 "GND" H 9800 950 50  0000 C CNN
+F 2 "" H 9800 1100 50  0000 C CNN
+F 3 "" H 9800 1100 50  0000 C CNN
+	1    9800 1100
 	0    -1   -1   0   
 $EndComp
 $Comp
 L +5V #PWR09
 U 1 1 57E2F25B
-P 6550 1600
-F 0 "#PWR09" H 6550 1450 50  0001 C CNN
-F 1 "+5V" H 6550 1740 50  0000 C CNN
-F 2 "" H 6550 1600 50  0000 C CNN
-F 3 "" H 6550 1600 50  0000 C CNN
-	1    6550 1600
+P 7800 1600
+F 0 "#PWR09" H 7800 1450 50  0001 C CNN
+F 1 "+5V" H 7800 1740 50  0000 C CNN
+F 2 "" H 7800 1600 50  0000 C CNN
+F 3 "" H 7800 1600 50  0000 C CNN
+	1    7800 1600
 	0    -1   -1   0   
 $EndComp
 $Comp
 L VCC #PWR010
 U 1 1 57E2F27C
-P 6550 1900
-F 0 "#PWR010" H 6550 1750 50  0001 C CNN
-F 1 "VCC" H 6550 2050 50  0000 C CNN
-F 2 "" H 6550 1900 50  0000 C CNN
-F 3 "" H 6550 1900 50  0000 C CNN
-	1    6550 1900
+P 7800 1900
+F 0 "#PWR010" H 7800 1750 50  0001 C CNN
+F 1 "VCC" H 7800 2050 50  0000 C CNN
+F 2 "" H 7800 1900 50  0000 C CNN
+F 3 "" H 7800 1900 50  0000 C CNN
+	1    7800 1900
 	0    -1   -1   0   
 $EndComp
-Text GLabel 1700 3100 3    60   Input ~ 0
+Text GLabel 1100 2850 3    60   Input ~ 0
 D9
-Text GLabel 1700 1350 1    60   Input ~ 0
+Text GLabel 1100 1100 1    60   Input ~ 0
 D10
 $Comp
 L GND #PWR011
@@ -427,12 +429,12 @@ $EndComp
 $Comp
 L Jumper_NC_Small JP4
 U 1 1 57E32AD5
-P 1700 2950
-F 0 "JP4" H 1700 3030 50  0000 C CNN
-F 1 "Jumper_NC_Small" H 1710 2890 50  0001 C CNN
-F 2 "yaqwsx:CUT_BRIDGGE" H 1700 2950 50  0001 C CNN
-F 3 "" H 1700 2950 50  0000 C CNN
-	1    1700 2950
+P 1100 2700
+F 0 "JP4" H 1100 2780 50  0000 C CNN
+F 1 "Jumper_NC_Small" H 1110 2640 50  0001 C CNN
+F 2 "yaqwsx:CUT_BRIDGGE" H 1100 2700 50  0001 C CNN
+F 3 "" H 1100 2700 50  0000 C CNN
+	1    1100 2700
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -714,12 +716,12 @@ $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R7
 U 1 1 57E30046
-P 1700 2000
-F 0 "R7" V 1780 2000 50  0000 C CNN
-F 1 "150R" V 1700 2000 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" H 1700 2000 50  0001 C CNN
-F 3 "" H 1700 2000 50  0000 C CNN
-	1    1700 2000
+P 1100 1750
+F 0 "R7" V 1180 1750 50  0000 C CNN
+F 1 "150R" V 1100 1750 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 1100 1750 50  0001 C CNN
+F 3 "" H 1100 1750 50  0000 C CNN
+	1    1100 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -998,23 +1000,23 @@ $EndComp
 $Comp
 L PIEZO PIEIZO1
 U 1 1 57E2F3A6
-P 1700 2550
-F 0 "PIEIZO1" H 1700 2300 60  0000 C CNN
-F 1 "PIEZO" H 1700 2800 60  0000 C CNN
-F 2 "yaqwsx:piezo_12" H 1700 2550 60  0001 C CNN
-F 3 "" H 1700 2550 60  0000 C CNN
-	1    1700 2550
+P 1100 2300
+F 0 "PIEIZO1" H 1100 2050 60  0000 C CNN
+F 1 "PIEZO" H 1100 2550 60  0000 C CNN
+F 2 "yaqwsx:piezo_12" H 1100 2300 60  0001 C CNN
+F 3 "" H 1100 2300 60  0000 C CNN
+	1    1100 2300
 	0    -1   1    0   
 $EndComp
 $Comp
 L Jumper_NC_Small JP16
 U 1 1 58C1F7D6
-P 1700 1550
-F 0 "JP16" H 1700 1630 50  0000 C CNN
-F 1 "Jumper" H 1710 1490 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1700 1550 50  0001 C CNN
-F 3 "" H 1700 1550 50  0001 C CNN
-	1    1700 1550
+P 1100 1300
+F 0 "JP16" H 1100 1380 50  0000 C CNN
+F 1 "Jumper" H 1110 1240 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1100 1300 50  0001 C CNN
+F 3 "" H 1100 1300 50  0001 C CNN
+	1    1100 1300
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -1337,7 +1339,7 @@ F 3 "" H 4400 7100 50  0000 C CNN
 	1    4400 7100
 	0    1    1    0   
 $EndComp
-Text GLabel 6700 1300 0    60   Input ~ 0
+Text GLabel 7950 1300 0    60   Input ~ 0
 IOREF
 $Comp
 L GND #PWR034
@@ -1592,27 +1594,27 @@ F 3 "" H 1900 6800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3300 1250 2850 1250
+	5300 1050 4850 1050
 Wire Wire Line
-	2800 2250 3300 2250
+	4800 2050 5300 2050
 Wire Wire Line
-	3300 2450 2850 2450
+	5300 2250 4850 2250
 Wire Wire Line
-	3050 2550 3300 2550
+	5050 2350 5300 2350
 Wire Wire Line
-	4850 2250 5100 2250
+	6850 2050 7100 2050
 Wire Wire Line
-	6300 1500 6700 1500
+	7550 1500 7950 1500
 Wire Wire Line
-	8550 1100 8200 1100
+	9800 1100 9450 1100
 Wire Wire Line
-	6700 1900 6550 1900
+	7950 1900 7800 1900
 Wire Wire Line
-	6700 1800 6700 1700
+	7950 1800 7950 1700
 Wire Wire Line
-	6700 1700 6100 1700
+	7950 1700 7350 1700
 Wire Wire Line
-	6550 1600 6700 1600
+	7800 1600 7950 1600
 Wire Wire Line
 	9850 2400 9850 2300
 Wire Wire Line
@@ -1624,7 +1626,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 1050 10250 950 
 Wire Wire Line
-	1700 3050 1700 3100
+	1100 2800 1100 2850
 Wire Wire Line
 	5950 4900 5750 4900
 Wire Wire Line
@@ -1642,7 +1644,7 @@ Wire Wire Line
 Wire Wire Line
 	9850 2100 9850 2050
 Wire Wire Line
-	1700 1650 1700 1750
+	1100 1400 1100 1500
 Wire Wire Line
 	5950 5900 5750 5900
 Wire Wire Line
@@ -1682,7 +1684,7 @@ Wire Wire Line
 Wire Wire Line
 	8400 3850 8400 4300
 Wire Wire Line
-	1700 1350 1700 1450
+	1100 1100 1100 1200
 Wire Wire Line
 	1200 3700 2000 3700
 Wire Wire Line
@@ -1802,4 +1804,138 @@ Text Label 1550 6750 0    60   ~ 0
 D+
 Text Label 1550 6850 0    60   ~ 0
 D-
+$Comp
+L ESP32-DEVKIT-C U3
+U 1 1 5914FD59
+P 2950 1850
+F 0 "U3" H 2950 850 60  0000 C CNN
+F 1 "ESP32-DEVKIT-C" H 2950 2850 60  0000 C CNN
+F 2 "yaqwsx:ESP32-DEVKIT-C" H 2950 1500 60  0001 C CNN
+F 3 "" H 2950 1500 60  0001 C CNN
+	1    2950 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3V3 #PWR041
+U 1 1 5914FF34
+P 2450 950
+F 0 "#PWR041" H 2450 800 50  0001 C CNN
+F 1 "+3V3" H 2450 1090 50  0000 C CNN
+F 2 "" H 2450 950 50  0000 C CNN
+F 3 "" H 2450 950 50  0000 C CNN
+	1    2450 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L +5V #PWR042
+U 1 1 59150129
+P 2450 2750
+F 0 "#PWR042" H 2450 2600 50  0001 C CNN
+F 1 "+5V" H 2450 2890 50  0000 C CNN
+F 2 "" H 2450 2750 50  0000 C CNN
+F 3 "" H 2450 2750 50  0000 C CNN
+	1    2450 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR043
+U 1 1 5915031E
+P 3800 1550
+F 0 "#PWR043" H 3800 1300 50  0001 C CNN
+F 1 "GND" H 3800 1400 50  0000 C CNN
+F 2 "" H 3800 1550 50  0000 C CNN
+F 3 "" H 3800 1550 50  0000 C CNN
+	1    3800 1550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND #PWR044
+U 1 1 59150419
+P 2200 2250
+F 0 "#PWR044" H 2200 2000 50  0001 C CNN
+F 1 "GND" H 2200 2100 50  0000 C CNN
+F 2 "" H 2200 2250 50  0000 C CNN
+F 3 "" H 2200 2250 50  0000 C CNN
+	1    2200 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR045
+U 1 1 59150514
+P 3850 950
+F 0 "#PWR045" H 3850 700 50  0001 C CNN
+F 1 "GND" H 3850 800 50  0000 C CNN
+F 2 "" H 3850 950 50  0000 C CNN
+F 3 "" H 3850 950 50  0000 C CNN
+	1    3850 950 
+	0    -1   -1   0   
+$EndComp
+Text GLabel 3500 2350 2    60   Input ~ 0
+D3
+Text GLabel 3500 2250 2    60   Input ~ 0
+D4
+Text Notes 8400 4550 0    60   ~ 0
+ESP32 - boot1
+Text Notes 8400 5550 0    60   ~ 0
+ESP32 - boot2
+Text GLabel 2450 1550 0    60   Input ~ 0
+A0
+Text GLabel 2450 1650 0    60   Input ~ 0
+A1
+Text GLabel 2450 1750 0    60   Input ~ 0
+A2
+Text GLabel 2450 1850 0    60   Input ~ 0
+A3
+Text GLabel 2450 1950 0    60   Input ~ 0
+A4
+Text GLabel 2450 2050 0    60   Input ~ 0
+A5
+Text GLabel 2450 2150 0    60   Input ~ 0
+A6
+Wire Wire Line
+	2200 2250 2450 2250
+Text GLabel 2450 2350 0    60   Input ~ 0
+A7
+NoConn ~ 2450 2450
+NoConn ~ 2450 2550
+NoConn ~ 2450 2650
+NoConn ~ 3500 2750
+NoConn ~ 3500 2650
+NoConn ~ 3500 2550
+Text GLabel 2250 1050 0    60   Input ~ 0
+RST
+Wire Wire Line
+	2250 1050 2450 1050
+Text GLabel 3500 1350 2    60   Input ~ 0
+D0
+Text GLabel 3500 1250 2    60   Input ~ 0
+D1
+Text GLabel 3500 2450 2    60   Input ~ 0
+D2
+Text GLabel 3500 2150 2    60   Input ~ 0
+D5
+Text GLabel 3500 2050 2    60   Input ~ 0
+D6
+Text GLabel 3500 1950 2    60   Input ~ 0
+D7
+Text GLabel 3500 1850 2    60   Input ~ 0
+D8
+Text GLabel 3500 1750 2    60   Input ~ 0
+D9
+Wire Wire Line
+	3800 1550 3500 1550
+Text GLabel 3500 1650 2    60   Input ~ 0
+D10
+Text GLabel 3500 1450 2    60   Input ~ 0
+D11
+Text GLabel 3500 1150 2    60   Input ~ 0
+D12
+Wire Wire Line
+	3850 950  3500 950 
+Text GLabel 3500 1050 2    60   Input ~ 0
+D13
+NoConn ~ 2450 1150
+NoConn ~ 2450 1250
+NoConn ~ 2450 1350
+NoConn ~ 2450 1450
 $EndSCHEMATC
