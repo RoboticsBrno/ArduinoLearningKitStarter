@@ -106,7 +106,7 @@ F 1 "arduino_nano" H 6100 850 60  0000 C CNN
 F 2 "yaqwsx:arduino_nano" H 5800 1900 60  0001 C CNN
 F 3 "" H 5800 1900 60  0000 C CNN
 	1    6100 1650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L arduino_uno U2
@@ -117,7 +117,7 @@ F 1 "arduino_uno" H 8700 700 60  0000 C CNN
 F 2 "yaqwsx:arduino_uno_small_pads" H 8500 1300 60  0001 C CNN
 F 3 "" H 8500 1300 60  0001 C CNN
 	1    8700 1700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 7950 1200
 Text GLabel 5300 950  0    60   Input ~ 0
@@ -227,7 +227,7 @@ F 1 "+3V3" H 4850 1190 50  0000 C CNN
 F 2 "" H 4850 1050 50  0000 C CNN
 F 3 "" H 4850 1050 50  0000 C CNN
 	1    4850 1050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L +3V3 #PWR02
@@ -238,7 +238,7 @@ F 1 "+3V3" H 7550 1640 50  0000 C CNN
 F 2 "" H 7550 1500 50  0000 C CNN
 F 3 "" H 7550 1500 50  0000 C CNN
 	1    7550 1500
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L +5V #PWR03
@@ -249,7 +249,7 @@ F 1 "+5V" H 4800 2190 50  0000 C CNN
 F 2 "" H 4800 2050 50  0000 C CNN
 F 3 "" H 4800 2050 50  0000 C CNN
 	1    4800 2050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L GND #PWR04
@@ -260,7 +260,7 @@ F 1 "GND" H 4850 2100 50  0000 C CNN
 F 2 "" H 4850 2250 50  0000 C CNN
 F 3 "" H 4850 2250 50  0000 C CNN
 	1    4850 2250
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L VCC #PWR05
@@ -271,7 +271,7 @@ F 1 "VCC" H 5050 2500 50  0000 C CNN
 F 2 "" H 5050 2350 50  0000 C CNN
 F 3 "" H 5050 2350 50  0000 C CNN
 	1    5050 2350
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L GND #PWR06
@@ -282,7 +282,7 @@ F 1 "GND" H 7100 1900 50  0000 C CNN
 F 2 "" H 7100 2050 50  0000 C CNN
 F 3 "" H 7100 2050 50  0000 C CNN
 	1    7100 2050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L GND #PWR07
@@ -293,7 +293,7 @@ F 1 "GND" H 7350 1550 50  0000 C CNN
 F 2 "" H 7350 1700 50  0000 C CNN
 F 3 "" H 7350 1700 50  0000 C CNN
 	1    7350 1700
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR08
@@ -304,7 +304,7 @@ F 1 "GND" H 9800 950 50  0000 C CNN
 F 2 "" H 9800 1100 50  0000 C CNN
 F 3 "" H 9800 1100 50  0000 C CNN
 	1    9800 1100
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L +5V #PWR09
@@ -315,7 +315,7 @@ F 1 "+5V" H 7800 1740 50  0000 C CNN
 F 2 "" H 7800 1600 50  0000 C CNN
 F 3 "" H 7800 1600 50  0000 C CNN
 	1    7800 1600
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L VCC #PWR010
@@ -326,7 +326,7 @@ F 1 "VCC" H 7800 2050 50  0000 C CNN
 F 2 "" H 7800 1900 50  0000 C CNN
 F 3 "" H 7800 1900 50  0000 C CNN
 	1    7800 1900
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Text GLabel 1100 2850 3    60   Input ~ 0
 D9
@@ -341,7 +341,7 @@ F 1 "GND" H 9150 5150 50  0000 C CNN
 F 2 "" H 9150 5300 50  0000 C CNN
 F 3 "" H 9150 5300 50  0000 C CNN
 	1    9150 5300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L LED_RCBG-RESCUE-robotarna_arduino L_RGB1
@@ -352,40 +352,40 @@ F 1 "LED_RCBG" H 10050 2850 50  0000 C CNN
 F 2 "LEDs:LED-RGB-5MM_Common_Cathode" H 10050 3150 50  0001 C CNN
 F 3 "" H 10050 3150 50  0000 C CNN
 	1    10050 3200
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R16
 U 1 1 57E2FB4D
 P 9850 2650
 F 0 "R16" V 9930 2650 50  0000 C CNN
-F 1 "150R" V 9850 2650 50  0000 C CNN
+F 1 "220R" V 9850 2650 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 9850 2650 50  0001 C CNN
 F 3 "" H 9850 2650 50  0000 C CNN
 	1    9850 2650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R17
 U 1 1 57E2FBFC
 P 10050 2650
 F 0 "R17" V 10130 2650 50  0000 C CNN
-F 1 "150R" V 10050 2650 50  0000 C CNN
+F 1 "220R" V 10050 2650 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 10050 2650 50  0001 C CNN
 F 3 "" H 10050 2650 50  0000 C CNN
 	1    10050 2650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R18
 U 1 1 57E2FC45
 P 10250 2650
 F 0 "R18" V 10330 2650 50  0000 C CNN
-F 1 "150R" V 10250 2650 50  0000 C CNN
+F 1 "220R" V 10250 2650 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 10250 2650 50  0001 C CNN
 F 3 "" H 10250 2650 50  0000 C CNN
 	1    10250 2650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 9850 2050 1    60   Input ~ 0
 D5
@@ -402,7 +402,7 @@ F 1 "Jumper_NC_Small" H 9860 2140 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 9850 2200 50  0001 C CNN
 F 3 "" H 9850 2200 50  0000 C CNN
 	1    9850 2200
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Jumper_NC_Small JP14
@@ -413,7 +413,7 @@ F 1 "Jumper_NC_Small" H 10060 1640 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 10050 1700 50  0001 C CNN
 F 3 "" H 10050 1700 50  0000 C CNN
 	1    10050 1700
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Jumper_NC_Small JP15
@@ -424,7 +424,7 @@ F 1 "Jumper_NC_Small" H 10260 1090 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 10250 1150 50  0001 C CNN
 F 3 "" H 10250 1150 50  0000 C CNN
 	1    10250 1150
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Jumper_NC_Small JP4
@@ -435,7 +435,7 @@ F 1 "Jumper_NC_Small" H 1110 2640 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 1100 2700 50  0001 C CNN
 F 3 "" H 1100 2700 50  0000 C CNN
 	1    1100 2700
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L POT-RESCUE-robotarna_arduino RV1
@@ -446,7 +446,7 @@ F 1 "10k" H 6800 4900 50  0000 C CNN
 F 2 "Potentiometers:RV09" H 6800 4900 50  0001 C CNN
 F 3 "" H 6800 4900 50  0000 C CNN
 	1    6800 4900
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Jumper_NC_Small JP2
@@ -457,7 +457,7 @@ F 1 "Jumper_NC_Small" H 6060 4840 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 6050 4900 50  0001 C CNN
 F 3 "" H 6050 4900 50  0000 C CNN
 	1    6050 4900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR012
@@ -468,7 +468,7 @@ F 1 "GND" H 6800 4900 50  0000 C CNN
 F 2 "" H 6800 5050 50  0000 C CNN
 F 3 "" H 6800 5050 50  0000 C CNN
 	1    6800 5050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 5750 4900 0    60   Input ~ 0
 A0
@@ -481,18 +481,18 @@ F 1 "LED" H 6250 3150 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 6250 3250 50  0001 C CNN
 F 3 "" H 6250 3250 50  0000 C CNN
 	1    6250 3250
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R8
 U 1 1 57E354F8
 P 6700 3250
 F 0 "R8" V 6780 3250 50  0000 C CNN
-F 1 "150R" V 6700 3250 50  0000 C CNN
+F 1 "220R" V 6700 3250 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 6700 3250 50  0001 C CNN
 F 3 "" H 6700 3250 50  0000 C CNN
 	1    6700 3250
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR013
@@ -503,7 +503,7 @@ F 1 "GND" H 6950 3100 50  0000 C CNN
 F 2 "" H 6950 3250 50  0000 C CNN
 F 3 "" H 6950 3250 50  0000 C CNN
 	1    6950 3250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Jumper_NC_Small JP7
@@ -514,7 +514,7 @@ F 1 "Jumper_NC_Small" H 5960 3190 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 5950 3250 50  0001 C CNN
 F 3 "" H 5950 3250 50  0000 C CNN
 	1    5950 3250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED-RESCUE-robotarna_arduino L_B1
@@ -525,18 +525,18 @@ F 1 "LED" H 6250 3500 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 6250 3600 50  0001 C CNN
 F 3 "" H 6250 3600 50  0000 C CNN
 	1    6250 3600
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R9
 U 1 1 57E35DE4
 P 6700 3600
 F 0 "R9" V 6780 3600 50  0000 C CNN
-F 1 "150R" V 6700 3600 50  0000 C CNN
+F 1 "220R" V 6700 3600 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 6700 3600 50  0001 C CNN
 F 3 "" H 6700 3600 50  0000 C CNN
 	1    6700 3600
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR014
@@ -547,7 +547,7 @@ F 1 "GND" H 6950 3450 50  0000 C CNN
 F 2 "" H 6950 3600 50  0000 C CNN
 F 3 "" H 6950 3600 50  0000 C CNN
 	1    6950 3600
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Jumper_NC_Small JP8
@@ -558,7 +558,7 @@ F 1 "Jumper_NC_Small" H 5960 3540 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 5950 3600 50  0001 C CNN
 F 3 "" H 5950 3600 50  0000 C CNN
 	1    5950 3600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED-RESCUE-robotarna_arduino L_R1
@@ -569,18 +569,18 @@ F 1 "LED" H 6250 3850 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 6250 3950 50  0001 C CNN
 F 3 "" H 6250 3950 50  0000 C CNN
 	1    6250 3950
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R5
 U 1 1 57E36617
 P 6700 3950
 F 0 "R5" V 6780 3950 50  0000 C CNN
-F 1 "150R" V 6700 3950 50  0000 C CNN
+F 1 "220R" V 6700 3950 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 6700 3950 50  0001 C CNN
 F 3 "" H 6700 3950 50  0000 C CNN
 	1    6700 3950
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR015
@@ -591,7 +591,7 @@ F 1 "GND" H 6950 3800 50  0000 C CNN
 F 2 "" H 6950 3950 50  0000 C CNN
 F 3 "" H 6950 3950 50  0000 C CNN
 	1    6950 3950
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Jumper_NC_Small JP5
@@ -602,7 +602,7 @@ F 1 "Jumper_NC_Small" H 5960 3890 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 5950 3950 50  0001 C CNN
 F 3 "" H 5950 3950 50  0000 C CNN
 	1    5950 3950
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L LED-RESCUE-robotarna_arduino L_Y1
@@ -613,18 +613,18 @@ F 1 "LED" H 6250 4200 50  0000 C CNN
 F 2 "LEDs:LED-5MM" H 6250 4300 50  0001 C CNN
 F 3 "" H 6250 4300 50  0000 C CNN
 	1    6250 4300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R6
 U 1 1 57E3663A
 P 6700 4300
 F 0 "R6" V 6780 4300 50  0000 C CNN
-F 1 "150R" V 6700 4300 50  0000 C CNN
+F 1 "220R" V 6700 4300 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 6700 4300 50  0001 C CNN
 F 3 "" H 6700 4300 50  0000 C CNN
 	1    6700 4300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR016
@@ -635,7 +635,7 @@ F 1 "GND" H 6950 4150 50  0000 C CNN
 F 2 "" H 6950 4300 50  0000 C CNN
 F 3 "" H 6950 4300 50  0000 C CNN
 	1    6950 4300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Jumper_NC_Small JP6
@@ -646,7 +646,7 @@ F 1 "Jumper_NC_Small" H 5960 4240 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 5950 4300 50  0001 C CNN
 F 3 "" H 5950 4300 50  0000 C CNN
 	1    5950 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 5700 3250 0    60   Input ~ 0
 D7
@@ -665,7 +665,7 @@ F 1 "Photores" V 6660 6800 50  0000 C TNN
 F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6380 6800 50  0001 C CNN
 F 3 "" H 6450 6800 50  0000 C CNN
 	1    6450 6800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L Jumper_NC_Small JP1
@@ -676,7 +676,7 @@ F 1 "Jumper_NC_Small" H 5810 6990 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 5800 7050 50  0001 C CNN
 F 3 "" H 5800 7050 50  0000 C CNN
 	1    5800 7050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR017
@@ -687,7 +687,7 @@ F 1 "GND" H 6450 7400 50  0000 C CNN
 F 2 "" H 6450 7550 50  0000 C CNN
 F 3 "" H 6450 7550 50  0000 C CNN
 	1    6450 7550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 5500 7050 0    60   Input ~ 0
 A2
@@ -700,7 +700,7 @@ F 1 "10k" V 6450 7300 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 6450 7300 50  0001 C CNN
 F 3 "" H 6450 7300 50  0000 C CNN
 	1    6450 7300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR018
@@ -711,18 +711,18 @@ F 1 "GND" H 10050 3350 50  0000 C CNN
 F 2 "" H 10050 3500 50  0000 C CNN
 F 3 "" H 10050 3500 50  0000 C CNN
 	1    10050 3500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R7
 U 1 1 57E30046
 P 1100 1750
 F 0 "R7" V 1180 1750 50  0000 C CNN
-F 1 "150R" V 1100 1750 50  0000 C CNN
+F 1 "220R" V 1100 1750 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 1100 1750 50  0001 C CNN
 F 3 "" H 1100 1750 50  0000 C CNN
 	1    1100 1750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R1
@@ -733,7 +733,7 @@ F 1 "1k" V 6400 4900 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 6400 4900 50  0001 C CNN
 F 3 "" H 6400 4900 50  0000 C CNN
 	1    6400 4900
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L POT-RESCUE-robotarna_arduino RV2
@@ -744,7 +744,7 @@ F 1 "10k" H 6800 5900 50  0000 C CNN
 F 2 "Potentiometers:RV09" H 6800 5900 50  0001 C CNN
 F 3 "" H 6800 5900 50  0000 C CNN
 	1    6800 5900
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L Jumper_NC_Small JP3
@@ -755,7 +755,7 @@ F 1 "Jumper_NC_Small" H 6060 5840 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 6050 5900 50  0001 C CNN
 F 3 "" H 6050 5900 50  0000 C CNN
 	1    6050 5900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR019
@@ -766,7 +766,7 @@ F 1 "GND" H 6800 5900 50  0000 C CNN
 F 2 "" H 6800 6050 50  0000 C CNN
 F 3 "" H 6800 6050 50  0000 C CNN
 	1    6800 6050
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 5750 5900 0    60   Input ~ 0
 A1
@@ -779,7 +779,7 @@ F 1 "1k" V 6400 5900 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 6400 5900 50  0001 C CNN
 F 3 "" H 6400 5900 50  0000 C CNN
 	1    6400 5900
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L C-RESCUE-robotarna_arduino C3
@@ -790,7 +790,7 @@ F 1 "100n" V 8850 4700 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8750 4850 50  0001 C CNN
 F 3 "" H 8750 4850 50  0000 C CNN
 	1    8750 4850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Jumper_NC_Small JP12
@@ -801,7 +801,7 @@ F 1 "Jumper_NC_Small" H 7810 5240 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 7800 5300 50  0001 C CNN
 F 3 "" H 7800 5300 50  0000 C CNN
 	1    7800 5300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R15
@@ -812,7 +812,7 @@ F 1 "1k" V 8150 5300 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 8150 5300 50  0001 C CNN
 F 3 "" H 8150 5300 50  0000 C CNN
 	1    8150 5300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text GLabel 7700 4300 0    60   Input ~ 0
 D3
@@ -825,7 +825,7 @@ F 1 "GND" H 9150 3350 50  0000 C CNN
 F 2 "" H 9150 3500 50  0000 C CNN
 F 3 "" H 9150 3500 50  0000 C CNN
 	1    9150 3500
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L C-RESCUE-robotarna_arduino C1
@@ -836,7 +836,7 @@ F 1 "100n" V 8850 2900 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8750 3050 50  0001 C CNN
 F 3 "" H 8750 3050 50  0000 C CNN
 	1    8750 3050
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Jumper_NC_Small JP10
@@ -847,7 +847,7 @@ F 1 "Jumper_NC_Small" H 7810 3440 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 7800 3500 50  0001 C CNN
 F 3 "" H 7800 3500 50  0000 C CNN
 	1    7800 3500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R13
@@ -858,7 +858,7 @@ F 1 "1k" V 8150 3500 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 8150 3500 50  0001 C CNN
 F 3 "" H 8150 3500 50  0000 C CNN
 	1    8150 3500
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text GLabel 7700 5300 0    60   Input ~ 0
 D4
@@ -871,7 +871,7 @@ F 1 "GND" H 9150 4150 50  0000 C CNN
 F 2 "" H 9150 4300 50  0000 C CNN
 F 3 "" H 9150 4300 50  0000 C CNN
 	1    9150 4300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L C-RESCUE-robotarna_arduino C2
@@ -882,7 +882,7 @@ F 1 "100n" V 8850 3700 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8750 3850 50  0001 C CNN
 F 3 "" H 8750 3850 50  0000 C CNN
 	1    8750 3850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L Jumper_NC_Small JP11
@@ -893,7 +893,7 @@ F 1 "Jumper_NC_Small" H 7810 4240 50  0001 C CNN
 F 2 "yaqwsx:CUT_BRIDGGE" H 7800 4300 50  0001 C CNN
 F 3 "" H 7800 4300 50  0000 C CNN
 	1    7800 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R14
@@ -904,7 +904,7 @@ F 1 "1k" V 8150 4300 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 8150 4300 50  0001 C CNN
 F 3 "" H 8150 4300 50  0000 C CNN
 	1    8150 4300
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R12
@@ -915,7 +915,7 @@ F 1 "10k" V 7900 5550 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 7900 5550 50  0001 C CNN
 F 3 "" H 7900 5550 50  0000 C CNN
 	1    7900 5550
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R10
@@ -926,7 +926,7 @@ F 1 "10k" V 8150 3050 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 8150 3050 50  0001 C CNN
 F 3 "" H 8150 3050 50  0000 C CNN
 	1    8150 3050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R11
@@ -937,7 +937,7 @@ F 1 "10k" V 7900 4550 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 7900 4550 50  0001 C CNN
 F 3 "" H 7900 4550 50  0000 C CNN
 	1    7900 4550
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X04 DHT11
@@ -948,7 +948,7 @@ F 1 "DHT11_CONN" V 10700 4300 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 10600 4300 50  0001 C CNN
 F 3 "" H 10600 4300 50  0000 C CNN
 	1    10600 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR022
@@ -959,7 +959,7 @@ F 1 "GND" H 10400 4300 50  0000 C CNN
 F 2 "" H 10400 4450 50  0000 C CNN
 F 3 "" H 10400 4450 50  0000 C CNN
 	1    10400 4450
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 NoConn ~ 10400 4350
 Text GLabel 10100 4250 0    60   Input ~ 0
@@ -973,7 +973,7 @@ F 1 "SW_PUSH" H 8700 5220 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8700 5300 50  0001 C CNN
 F 3 "" H 8700 5300 50  0000 C CNN
 	1    8700 5300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SW_PUSH SW1
@@ -984,7 +984,7 @@ F 1 "SW_PUSH" H 8700 3420 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8700 3500 50  0001 C CNN
 F 3 "" H 8700 3500 50  0000 C CNN
 	1    8700 3500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L SW_PUSH SW2
@@ -995,7 +995,7 @@ F 1 "SW_PUSH" H 8700 4220 50  0000 C CNN
 F 2 "Buttons_Switches_ThroughHole:SW_PUSH_6mm" H 8700 4300 50  0001 C CNN
 F 3 "" H 8700 4300 50  0000 C CNN
 	1    8700 4300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L PIEZO PIEIZO1
@@ -1006,7 +1006,7 @@ F 1 "PIEZO" H 1100 2550 60  0000 C CNN
 F 2 "yaqwsx:piezo_12" H 1100 2300 60  0001 C CNN
 F 3 "" H 1100 2300 60  0000 C CNN
 	1    1100 2300
-	0    -1   1    0   
+	0    -1   1    0
 $EndComp
 $Comp
 L Jumper_NC_Small JP16
@@ -1017,7 +1017,7 @@ F 1 "Jumper" H 1110 1240 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1100 1300 50  0001 C CNN
 F 3 "" H 1100 1300 50  0001 C CNN
 	1    1100 1300
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L CONN_01X03 S1
@@ -1028,7 +1028,7 @@ F 1 "SERVO1" V 1100 3700 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1000 3700 50  0001 C CNN
 F 3 "" H 1000 3700 50  0001 C CNN
 	1    1000 3700
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X03 S2
@@ -1039,7 +1039,7 @@ F 1 "SERVO2" V 1100 4300 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1000 4300 50  0001 C CNN
 F 3 "" H 1000 4300 50  0001 C CNN
 	1    1000 4300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X03 S3
@@ -1050,7 +1050,7 @@ F 1 "SERVO3" V 1100 4800 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1000 4800 50  0001 C CNN
 F 3 "" H 1000 4800 50  0001 C CNN
 	1    1000 4800
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X03 S4
@@ -1061,7 +1061,7 @@ F 1 "SERVO4" V 1100 5300 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1000 5300 50  0001 C CNN
 F 3 "" H 1000 5300 50  0001 C CNN
 	1    1000 5300
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X03 S5
@@ -1072,7 +1072,7 @@ F 1 "SERVO5" V 1100 5800 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 1000 5800 50  0001 C CNN
 F 3 "" H 1000 5800 50  0001 C CNN
 	1    1000 5800
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L USB_OTG J1
@@ -1083,7 +1083,7 @@ F 1 "USB_OTG" H 950 7100 50  0000 L CNN
 F 2 "yaqwsx:USB_Micro-B-widened" H 1300 6700 50  0001 C CNN
 F 3 "" H 1300 6700 50  0001 C CNN
 	1    1150 6750
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 NoConn ~ 1450 6950
 $Comp
@@ -1095,7 +1095,7 @@ F 1 "1k" V 1450 3600 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 1450 3600 50  0001 C CNN
 F 3 "" H 1450 3600 50  0001 C CNN
 	1    1450 3600
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R19
@@ -1106,7 +1106,7 @@ F 1 "1k" V 1450 4200 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 1450 4200 50  0001 C CNN
 F 3 "" H 1450 4200 50  0001 C CNN
 	1    1450 4200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R20
@@ -1117,7 +1117,7 @@ F 1 "1k" V 1450 4700 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 1450 4700 50  0001 C CNN
 F 3 "" H 1450 4700 50  0001 C CNN
 	1    1450 4700
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R21
@@ -1128,7 +1128,7 @@ F 1 "1k" V 1450 5200 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 1450 5200 50  0001 C CNN
 F 3 "" H 1450 5200 50  0001 C CNN
 	1    1450 5200
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R22
@@ -1139,7 +1139,7 @@ F 1 "1k" V 1450 5700 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 1450 5700 50  0001 C CNN
 F 3 "" H 1450 5700 50  0001 C CNN
 	1    1450 5700
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text GLabel 2000 3700 2    60   Input ~ 0
 VCC_SERVO
@@ -1160,7 +1160,7 @@ F 1 "GND" H 1200 3650 50  0000 C CNN
 F 2 "" H 1200 3800 50  0000 C CNN
 F 3 "" H 1200 3800 50  0000 C CNN
 	1    1200 3800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR024
@@ -1171,7 +1171,7 @@ F 1 "GND" H 1200 4250 50  0000 C CNN
 F 2 "" H 1200 4400 50  0000 C CNN
 F 3 "" H 1200 4400 50  0000 C CNN
 	1    1200 4400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR025
@@ -1182,7 +1182,7 @@ F 1 "GND" H 1200 4750 50  0000 C CNN
 F 2 "" H 1200 4900 50  0000 C CNN
 F 3 "" H 1200 4900 50  0000 C CNN
 	1    1200 4900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR026
@@ -1193,7 +1193,7 @@ F 1 "GND" H 1200 5250 50  0000 C CNN
 F 2 "" H 1200 5400 50  0000 C CNN
 F 3 "" H 1200 5400 50  0000 C CNN
 	1    1200 5400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR027
@@ -1204,7 +1204,7 @@ F 1 "GND" H 1200 5750 50  0000 C CNN
 F 2 "" H 1200 5900 50  0000 C CNN
 F 3 "" H 1200 5900 50  0000 C CNN
 	1    1200 5900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 1700 3600 2    60   Input ~ 0
 D5
@@ -1225,7 +1225,7 @@ F 1 "GND" H 1150 7100 50  0000 C CNN
 F 2 "" H 1150 7250 50  0000 C CNN
 F 3 "" H 1150 7250 50  0000 C CNN
 	1    1150 7250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 2100 6550 2    60   Input ~ 0
 VCC_SERVO
@@ -1238,7 +1238,7 @@ F 1 "Jumper" H 1660 6290 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 1650 6350 50  0001 C CNN
 F 3 "" H 1650 6350 50  0001 C CNN
 	1    1650 6350
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X08 J2
@@ -1249,7 +1249,7 @@ F 1 "CONN_01X08" V 4700 3700 50  0000 C CNN
 F 2 "yaqwsx:Pin_Header_Straight_1x08_circle" H 4600 3700 50  0001 C CNN
 F 3 "" H 4600 3700 50  0001 C CNN
 	1    4600 3700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +5V #PWR029
@@ -1260,7 +1260,7 @@ F 1 "+5V" H 1650 6340 50  0000 C CNN
 F 2 "" H 1650 6200 50  0000 C CNN
 F 3 "" H 1650 6200 50  0000 C CNN
 	1    1650 6200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +5V #PWR030
@@ -1271,7 +1271,7 @@ F 1 "+5V" H 4400 4190 50  0000 C CNN
 F 2 "" H 4400 4050 50  0000 C CNN
 F 3 "" H 4400 4050 50  0000 C CNN
 	1    4400 4050
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L CONN_01X06 J3
@@ -1282,7 +1282,7 @@ F 1 "CONN_01X06" V 4700 4600 50  0000 C CNN
 F 2 "yaqwsx:Pin_Header_Straight_1x06_circle" H 4600 4600 50  0001 C CNN
 F 3 "" H 4600 4600 50  0001 C CNN
 	1    4600 4600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR031
@@ -1293,7 +1293,7 @@ F 1 "GND" H 4400 4700 50  0000 C CNN
 F 2 "" H 4400 4850 50  0000 C CNN
 F 3 "" H 4400 4850 50  0000 C CNN
 	1    4400 4850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X08 J4
@@ -1304,7 +1304,7 @@ F 1 "CONN_01X08" V 4700 5500 50  0000 C CNN
 F 2 "yaqwsx:Pin_Header_Straight_1x08_circle" H 4600 5500 50  0001 C CNN
 F 3 "" H 4600 5500 50  0001 C CNN
 	1    4600 5500
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR032
@@ -1315,7 +1315,7 @@ F 1 "GND" H 4400 5700 50  0000 C CNN
 F 2 "" H 4400 5850 50  0000 C CNN
 F 3 "" H 4400 5850 50  0000 C CNN
 	1    4400 5850
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L CONN_01X10 J5
@@ -1326,7 +1326,7 @@ F 1 "CONN_01X10" V 4700 6650 50  0000 C CNN
 F 2 "yaqwsx:Pin_Header_Straight_1x10_circle" H 4600 6650 50  0001 C CNN
 F 3 "" H 4600 6650 50  0001 C CNN
 	1    4600 6650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L GND #PWR033
@@ -1337,7 +1337,7 @@ F 1 "GND" H 4400 6950 50  0000 C CNN
 F 2 "" H 4400 7100 50  0000 C CNN
 F 3 "" H 4400 7100 50  0000 C CNN
 	1    4400 7100
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text GLabel 7950 1300 0    60   Input ~ 0
 IOREF
@@ -1350,7 +1350,7 @@ F 1 "GND" H 4400 3200 50  0000 C CNN
 F 2 "" H 4400 3350 50  0000 C CNN
 F 3 "" H 4400 3350 50  0000 C CNN
 	1    4400 3350
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Text GLabel 4400 3450 0    60   Input ~ 0
 IOREF
@@ -1363,7 +1363,7 @@ F 1 "GND" H 4100 3400 50  0000 C CNN
 F 2 "" H 4100 3550 50  0000 C CNN
 F 3 "" H 4100 3550 50  0000 C CNN
 	1    4100 3550
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L +3V3 #PWR036
@@ -1374,7 +1374,7 @@ F 1 "+3V3" H 3900 3790 50  0000 C CNN
 F 2 "" H 3900 3650 50  0000 C CNN
 F 3 "" H 3900 3650 50  0000 C CNN
 	1    3900 3650
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R23
@@ -1385,7 +1385,7 @@ F 1 "1k" V 3450 6700 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 3450 6700 50  0001 C CNN
 F 3 "" H 3450 6700 50  0001 C CNN
 	1    3450 6700
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R24
@@ -1396,7 +1396,7 @@ F 1 "1k" V 3450 6800 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 3450 6800 50  0001 C CNN
 F 3 "" H 3450 6800 50  0001 C CNN
 	1    3450 6800
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR037
@@ -1407,7 +1407,7 @@ F 1 "GND" H 3200 6450 50  0000 C CNN
 F 2 "" H 3200 6600 50  0000 C CNN
 F 3 "" H 3200 6600 50  0000 C CNN
 	1    3200 6600
-	0    -1   1    0   
+	0    -1   1    0
 $EndComp
 Text GLabel 3700 6800 2    60   Input ~ 0
 D1
@@ -1420,7 +1420,7 @@ F 1 "GND" H 3200 5500 50  0000 C CNN
 F 2 "" H 3200 5650 50  0000 C CNN
 F 3 "" H 3200 5650 50  0000 C CNN
 	1    3200 5650
-	-1   0    0    -1  
+	-1   0    0    -1
 $EndComp
 $Comp
 L R-RESCUE-robotarna_arduino R3
@@ -1431,7 +1431,7 @@ F 1 "20k" V 3450 5550 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206_HandSoldering" H 3450 5550 50  0001 C CNN
 F 3 "" H 3450 5550 50  0001 C CNN
 	1    3450 5550
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text GLabel 3200 5450 2    60   Input ~ 0
 A3
@@ -1444,7 +1444,7 @@ F 1 "Jumper" H 8410 3190 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 8400 3250 50  0001 C CNN
 F 3 "" H 8400 3250 50  0001 C CNN
 	1    8400 3250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 Text GLabel 7700 3500 0    60   Input ~ 0
 D2
@@ -1457,7 +1457,7 @@ F 1 "C_Small" H 1710 3720 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1700 3800 50  0001 C CNN
 F 3 "" H 1700 3800 50  0001 C CNN
 	1    1700 3800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_Small C5
@@ -1468,7 +1468,7 @@ F 1 "C_Small" H 1710 4320 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1700 4400 50  0001 C CNN
 F 3 "" H 1700 4400 50  0001 C CNN
 	1    1700 4400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_Small C6
@@ -1479,7 +1479,7 @@ F 1 "C_Small" H 1710 4820 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1700 4900 50  0001 C CNN
 F 3 "" H 1700 4900 50  0001 C CNN
 	1    1700 4900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_Small C7
@@ -1490,7 +1490,7 @@ F 1 "C_Small" H 1710 5320 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1700 5400 50  0001 C CNN
 F 3 "" H 1700 5400 50  0001 C CNN
 	1    1700 5400
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L C_Small C8
@@ -1501,7 +1501,7 @@ F 1 "C_Small" H 1910 5820 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1900 5900 50  0001 C CNN
 F 3 "" H 1900 5900 50  0001 C CNN
 	1    1900 5900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 7900 3050 0    60   Input ~ 0
 IOREF_U
@@ -1514,7 +1514,7 @@ F 1 "CONN_01X04" V 3100 5500 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 3000 5500 50  0001 C CNN
 F 3 "" H 3000 5500 50  0001 C CNN
 	1    3000 5500
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L CONN_01X04 J6
@@ -1525,7 +1525,7 @@ F 1 "CONN_01X04" V 3100 6650 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x04" H 3000 6650 50  0001 C CNN
 F 3 "" H 3000 6650 50  0001 C CNN
 	1    3000 6650
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Text GLabel 7900 4800 0    60   Input ~ 0
 IOREF_U
@@ -1554,7 +1554,7 @@ F 1 "Jumper_NC_Dual" H 10250 5350 50  0000 C BNN
 F 2 "" H 10250 5250 50  0001 C CNN
 F 3 "" H 10250 5250 50  0001 C CNN
 	1    10250 5250
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Text GLabel 10250 5350 3    60   Input ~ 0
 IOREF_U
@@ -1567,7 +1567,7 @@ F 1 "+5V" H 9900 5390 50  0000 C CNN
 F 2 "" H 9900 5250 50  0001 C CNN
 F 3 "" H 9900 5250 50  0001 C CNN
 	1    9900 5250
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L +3V3 #PWR040
@@ -1578,7 +1578,7 @@ F 1 "+3V3" H 10750 5390 50  0000 C CNN
 F 2 "" H 10750 5250 50  0000 C CNN
 F 3 "" H 10750 5250 50  0000 C CNN
 	1    10750 5250
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 Text Notes 9600 5050 0    60   ~ 0
 Selects 5/3V3 board variant\n(pull-up resistors, DHT power, ...)
@@ -1591,7 +1591,7 @@ F 1 "CONN_01X02" V 2000 6800 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 1900 6800 50  0001 C CNN
 F 3 "" H 1900 6800 50  0001 C CNN
 	1    1900 6800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	5300 1050 4850 1050
@@ -1624,7 +1624,7 @@ Wire Wire Line
 Wire Wire Line
 	10250 2400 10250 1250
 Wire Wire Line
-	10250 1050 10250 950 
+	10250 1050 10250 950
 Wire Wire Line
 	1100 2800 1100 2850
 Wire Wire Line
@@ -1813,7 +1813,7 @@ F 1 "ESP32-DEVKIT-C" H 2950 2850 60  0000 C CNN
 F 2 "yaqwsx:ESP32-DEVKIT-C" H 2950 1500 60  0001 C CNN
 F 3 "" H 2950 1500 60  0001 C CNN
 	1    2950 1850
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L +3V3 #PWR041
@@ -1823,8 +1823,8 @@ F 0 "#PWR041" H 2450 800 50  0001 C CNN
 F 1 "+3V3" H 2450 1090 50  0000 C CNN
 F 2 "" H 2450 950 50  0000 C CNN
 F 3 "" H 2450 950 50  0000 C CNN
-	1    2450 950 
-	0    -1   -1   0   
+	1    2450 950
+	0    -1   -1   0
 $EndComp
 $Comp
 L +5V #PWR042
@@ -1835,7 +1835,7 @@ F 1 "+5V" H 2450 2890 50  0000 C CNN
 F 2 "" H 2450 2750 50  0000 C CNN
 F 3 "" H 2450 2750 50  0000 C CNN
 	1    2450 2750
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L GND #PWR043
@@ -1846,7 +1846,7 @@ F 1 "GND" H 3800 1400 50  0000 C CNN
 F 2 "" H 3800 1550 50  0000 C CNN
 F 3 "" H 3800 1550 50  0000 C CNN
 	1    3800 1550
-	0    -1   -1   0   
+	0    -1   -1   0
 $EndComp
 $Comp
 L GND #PWR044
@@ -1857,7 +1857,7 @@ F 1 "GND" H 2200 2100 50  0000 C CNN
 F 2 "" H 2200 2250 50  0000 C CNN
 F 3 "" H 2200 2250 50  0000 C CNN
 	1    2200 2250
-	0    1    1    0   
+	0    1    1    0
 $EndComp
 $Comp
 L GND #PWR045
@@ -1867,8 +1867,8 @@ F 0 "#PWR045" H 3850 700 50  0001 C CNN
 F 1 "GND" H 3850 800 50  0000 C CNN
 F 2 "" H 3850 950 50  0000 C CNN
 F 3 "" H 3850 950 50  0000 C CNN
-	1    3850 950 
-	0    -1   -1   0   
+	1    3850 950
+	0    -1   -1   0
 $EndComp
 Text GLabel 3500 2350 2    60   Input ~ 0
 D3
@@ -1931,7 +1931,7 @@ D11
 Text GLabel 3500 1150 2    60   Input ~ 0
 D12
 Wire Wire Line
-	3850 950  3500 950 
+	3850 950  3500 950
 Text GLabel 3500 1050 2    60   Input ~ 0
 D13
 NoConn ~ 2450 1150
