@@ -16,10 +16,10 @@ Deska obsahuje:
 - 3 tlačítka
 - 2 potenciometry
 - 5 konektorů pro připojení modelářského serva (s posíleným napájením přes
-  microUSB konektroq)
+  microUSB konektor)
 - port pro připojení vlhkoměrného čidla DHT11
 - port pro připojení sériové linky
-- odpojitelné blockovací kondenzátory u tlačítek pro demonstraci zákmitů
+- odpojitelné blokovací kondenzátory u tlačítek pro demonstraci zákmitů
 - fotorezistor
 - dostatečný počet napájecích pinů
 
