@@ -2,6 +2,8 @@
 
 [English version follows]
 
+Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?)
+
 Výukový kit pro Arduino Nano a Uno určeným začátečníkům od
 [RobotikaBrno.cz](http://robotikabrno.cz/). Cílem projektu je usnadnit úplným
 začátečníkům jejich první krůčky s Arduinem a vyhnout se "bastlení vrabčího
@@ -42,6 +44,8 @@ Jak s naším kitem začít? Postupuj podle [Wiki stránky](https://github.com/R
 ![/media/ALKS_v2.0_3.02_trig+nano.JPG](/media/ALKS_v2.0_3.02_trig+nano.JPG)
 
 ## English Version
+
+License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?)
 
 Learning kit for Arduino Nano and Uno for complete beginners by
 [RobotikaBrno.cz](http://robotikabrno.cz/). This kit tries ease the first steps
