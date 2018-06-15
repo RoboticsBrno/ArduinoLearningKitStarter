@@ -72,5 +72,4 @@ shields originally intended for Arduino Uno can be also used with Arduino Nano.
 If there is pin collision between shield and a kit component, the component can
 be disconnected using a solder bridge.
 
-Getting started - unfortunately, we provide currently only a Czech tutorial on
-our [Wiki page](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/wiki).
+Getting started - read our [wiki page](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/wiki#english).
