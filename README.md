@@ -31,18 +31,6 @@ kitu znemožňovala funkci shieldu, je možné ji přes pájecí můstek odpojit
 
 Jak s naším kitem začít? Postupuj podle [Wiki stránky](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/wiki).
 
-![/media/ALKS_v2.0_2.01_top.JPG](/media/ALKS_v2.0_2.01_top.JPG)
-
-![/media/ALKS_v2.0_2.02_top+nano.JPG](/media/ALKS_v2.0_2.02_top+nano.JPG)
-
-![/media/ALKS_v2.0_2.03_trig+nano.JPG](/media/ALKS_v2.0_2.03_trig+nano.JPG)
-
-![/media/ALKS_v2.0_3.00_top.JPG](/media/ALKS_v2.0_3.00_top.JPG)
-
-![/media/ALKS_v2.0_3.01_bot.JPG](/media/ALKS_v2.0_3.01_bot.JPG)
-
-![/media/ALKS_v2.0_3.02_trig+nano.JPG](/media/ALKS_v2.0_3.02_trig+nano.JPG)
-
 ## English Version
 
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?)
@@ -73,3 +61,15 @@ If there is pin collision between shield and a kit component, the component can
 be disconnected using a solder bridge.
 
 Getting started - read our [wiki page](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/wiki#english).
+
+![/media/ALKS_v2.0_2.01_top.JPG](/media/ALKS_v2.0_2.01_top.JPG)
+
+![/media/ALKS_v2.0_2.02_top+nano.JPG](/media/ALKS_v2.0_2.02_top+nano.JPG)
+
+![/media/ALKS_v2.0_2.03_trig+nano.JPG](/media/ALKS_v2.0_2.03_trig+nano.JPG)
+
+![/media/ALKS_v2.0_3.00_top.JPG](/media/ALKS_v2.0_3.00_top.JPG)
+
+![/media/ALKS_v2.0_3.01_bot.JPG](/media/ALKS_v2.0_3.01_bot.JPG)
+
+![/media/ALKS_v2.0_3.02_trig+nano.JPG](/media/ALKS_v2.0_3.02_trig+nano.JPG)
