@@ -10,7 +10,7 @@
 #include <toneAC.h>
 
 // You must install the DHT library to your Arduino developer tools 
-// In Arduino IDE - open in Menu "Project" -> "Add library" -> "Library manager" ->
+// In Arduino IDE - open in toolbar "Sketch" -> "Include Library" -> "Manage Libraries..." ->
 // -> write "DHT" to searching field
 // -> and install the DHT library "DHT sensor library by Adafruit..." 
 // (switch the version from the latest to 1.2.3)
