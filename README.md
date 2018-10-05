@@ -4,12 +4,16 @@
 
 Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?)
 
-Výukový kit pro Arduino Nano a Uno určeným začátečníkům od
-[RobotikaBrno.cz](http://robotikabrno.cz/). Cílem projektu je usnadnit úplným
-začátečníkům jejich první krůčky s Arduinem a vyhnout se "bastlení vrabčího
-hnízda". Náš kit si klade za cíl odstranit typické nedostatky vývojových desek
-pro Arduina - jako např. malý počet nápájecích pinů pro periférie. Veškeré
-komponenty jsou ve velkých pouzdrech, což umožňuje desku osadit i začátečníkům.
+Knihovna: [ArduinoLarningKitStarter-library](https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library.git) ([PlatformIO](https://platformio.org/lib/show/1745/ArduinoLearningKitStarter/))
+
+Výukový kit pro Arduino Nano, Arduino Uno a 
+[ESP32-DevKitC](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview) 
+určeným začátečníkům od [RobotikaBrno.cz](http://robotikabrno.cz/). 
+Cílem projektu je usnadnit úplným začátečníkům jejich první krůčky s Arduinem 
+a vyhnout se "bastlení vrabčího hnízda". Náš kit si klade za cíl odstranit 
+typické nedostatky vývojových desek pro Arduina - jako např. malý počet 
+nápájecích pinů pro periférie. Veškeré komponenty jsou ve velkých pouzdrech, 
+což umožňuje desku osadit i začátečníkům.
 
 Deska obsahuje:
 
@@ -35,7 +39,10 @@ Jak s naším kitem začít? Postupuj podle [Wiki stránky](https://github.com/R
 
 License: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?)
 
-Learning kit for Arduino Nano and Uno for complete beginners by
+Library: [ArduinoLarningKitStarter-library](https://github.com/RoboticsBrno/ArduinoLearningKitStarter-library.git) ([PlatformIO](https://platformio.org/lib/show/1745/ArduinoLearningKitStarter/))
+
+Learning kit for Arduino Nano, Arduino Uno and [ESP32-DevKitC](https://www.espressif.com/en/products/hardware/esp32-devkitc/overview)  
+for complete beginners by
 [RobotikaBrno.cz](http://robotikabrno.cz/). This kit tries ease the first steps
 with Arduino programming and tries to prevent a "wire mess". It also tries to
 eliminate usual imperfections of Arduino-like boards - e.g. the lack of
@@ -61,6 +68,10 @@ If there is pin collision between shield and a kit component, the component can
 be disconnected using a solder bridge.
 
 Getting started - read our [wiki page](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/wiki#english).
+
+### Photos (version 2.0)
+
+The latest version is [v3.1](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/releases/).
 
 ![/media/ALKS_v2.0_2.01_top.JPG](/media/ALKS_v2.0_2.01_top.JPG)
 
