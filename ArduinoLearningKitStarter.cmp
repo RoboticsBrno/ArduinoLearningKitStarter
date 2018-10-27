@@ -1,0 +1,739 @@
+Cmp-Mod V01 Created by PcbNew   date = 21.10.2018 12:37:52
+
+BeginCmp
+TimeStamp = 57E44E61
+Path = /57E45227
+Reference = RV2;
+ValeurCmp = 10k;
+IdModule  = yaqwsx_KiCAD_lib:RV09;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44E53
+Path = /57E33673
+Reference = RV1;
+ValeurCmp = 10k;
+IdModule  = yaqwsx_KiCAD_lib:RV09;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1C66D
+Path = /58C39125
+Reference = J6;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 5901BCC4
+Path = /59023141
+Reference = JP18;
+ValeurCmp = Jumper_NC_Dual;
+IdModule  = Pin_Headers:Pin_Header_Angled_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = 592EF1E0
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = yaqwsx:SOS-logo-8_5-6_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 592EF1CE
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = yaqwsx:Gatema-logo-14_9-6_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 592EF1BD
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = yaqwsx:RedHat-logo-254x61;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C5DFFE
+Path = 
+Reference = svg2mod;
+ValeurCmp = G***;
+IdModule  = yaqwsx:robotarna_cu_4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C58442
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_2.2mm_M2;
+IdModule  = Mounting_Holes:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C58350
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_2.2mm_M2;
+IdModule  = Mounting_Holes:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C582E8
+Path = 
+Reference = REF**;
+ValeurCmp = MountingHole_2.2mm_M2;
+IdModule  = Mounting_Holes:MountingHole_2.2mm_M2;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C5FC28
+Path = 
+Reference = svg2mod;
+ValeurCmp = G***;
+IdModule  = yaqwsx_KiCAD_lib:robotarna_cu_silks_4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58DE2B13
+Path = 
+Reference = svg2mod;
+ValeurCmp = G***;
+IdModule  = yaqwsx_KiCAD_lib:robotarna_cu_silks_4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 592F049E
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = yaqwsx:RedHat-logo-254x61;
+EndCmp
+
+BeginCmp
+TimeStamp = 592EE56B
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = yaqwsx:Gatema-logo-14_9-6_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 592EF021
+Path = 
+Reference = G***;
+ValeurCmp = LOGO;
+IdModule  = yaqwsx:SOS-logo-8_5-6_1;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0B7
+Path = /57E2F3A6
+Reference = PIEIZO1;
+ValeurCmp = PIEZO;
+IdModule  = yaqwsx:piezo_12;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A097
+Path = /57E353EC
+Reference = L_G1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0AB
+Path = /57E36634
+Reference = L_Y1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A09D
+Path = /57E36611
+Reference = L_R1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A091
+Path = /57E35DDE
+Reference = L_B1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-5MM;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E2EDC7
+Path = /57E2ED37
+Reference = U1;
+ValeurCmp = arduino_nano;
+IdModule  = yaqwsx:arduino_nano;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0CF
+Path = /58C2516B
+Reference = R21;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1AE5A
+Path = /57E2EE30
+Reference = U2;
+ValeurCmp = arduino_uno;
+IdModule  = yaqwsx:arduino_uno_small_pads;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0EA
+Path = /58C238B6
+Reference = S3;
+ValeurCmp = SERVO3;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44917
+Path = /57E4522D
+Reference = JP3;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E4495F
+Path = /57E30BC7
+Reference = JP15;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44959
+Path = /57E307B0
+Reference = JP14;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44953
+Path = /57E30624
+Reference = JP13;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E4494D
+Path = /57E465C5
+Reference = JP12;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44947
+Path = /57E47D77
+Reference = JP11;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44941
+Path = /57E479A7
+Reference = JP10;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44935
+Path = /57E35DF0
+Reference = JP8;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E4492F
+Path = /57E35847
+Reference = JP7;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44929
+Path = /57E36646
+Reference = JP6;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44923
+Path = /57E36623
+Reference = JP5;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E4491D
+Path = /57E32AD5
+Reference = JP4;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44911
+Path = /57E3383B
+Reference = JP2;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E4490B
+Path = /57E3785D
+Reference = JP1;
+ValeurCmp = Jumper_NC_Small;
+IdModule  = yaqwsx:CUT_BRIDGGE;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E448D9
+Path = /57E479A1
+Reference = C1;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E448DF
+Path = /57E47D71
+Reference = C2;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E448E5
+Path = /57E46232
+Reference = C3;
+ValeurCmp = 100n;
+IdModule  = Capacitors_SMD:C_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E449C7
+Path = /57E44C39
+Reference = R1;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E449CD
+Path = /57E4524A
+Reference = R2;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E449D9
+Path = /57E37C7D
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E449DF
+Path = /57E36617
+Reference = R5;
+ValeurCmp = 220R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E449E5
+Path = /57E3663A
+Reference = R6;
+ValeurCmp = 220R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E449EB
+Path = /57E30046
+Reference = R7;
+ValeurCmp = 220R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E449F1
+Path = /57E354F8
+Reference = R8;
+ValeurCmp = 220R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E449F7
+Path = /57E35DE4
+Reference = R9;
+ValeurCmp = 220R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E449FD
+Path = /57E4856A
+Reference = R10;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44A03
+Path = /57E48844
+Reference = R11;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44A09
+Path = /57E48021
+Reference = R12;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44A0F
+Path = /57E479AD
+Reference = R13;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44A15
+Path = /57E47D7D
+Reference = R14;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44A1B
+Path = /57E468B0
+Reference = R15;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44A21
+Path = /57E2FB4D
+Reference = R16;
+ValeurCmp = 220R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44A27
+Path = /57E2FBFC
+Reference = R17;
+ValeurCmp = 220R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44A2D
+Path = /57E2FC45
+Reference = R18;
+ValeurCmp = 220R;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44A41
+Path = /57E4C780
+Reference = SW1;
+ValeurCmp = SW_PUSH;
+IdModule  = Buttons_Switches_ThroughHole:SW_PUSH_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44A49
+Path = /57E4CA16
+Reference = SW2;
+ValeurCmp = SW_PUSH;
+IdModule  = Buttons_Switches_ThroughHole:SW_PUSH_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 57E44A51
+Path = /57E4C0F7
+Reference = SW3;
+ValeurCmp = SW_PUSH;
+IdModule  = Buttons_Switches_ThroughHole:SW_PUSH_6mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A055
+Path = /58C23B71
+Reference = J1;
+ValeurCmp = USB_OTG;
+IdModule  = yaqwsx:USB_Micro-B-widened;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A08B
+Path = /58C1F7D6
+Reference = JP16;
+ValeurCmp = Jumper;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0A5
+Path = /57E2FA7A
+Reference = L_RGB1;
+ValeurCmp = LED_RCBG;
+IdModule  = LEDs:LED-RGB-5MM_Common_Cathode;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0B1
+Path = /57E3733E
+Reference = PHOTO1;
+ValeurCmp = Photores;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0BD
+Path = /58C24888
+Reference = R25;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0C3
+Path = /58C24E12
+Reference = R19;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0C9
+Path = /58C24F69
+Reference = R20;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0D5
+Path = /58C25256
+Reference = R22;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0DC
+Path = /58C233A3
+Reference = S1;
+ValeurCmp = SERVO1;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0E3
+Path = /58C23740
+Reference = S2;
+ValeurCmp = SERVO2;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0F1
+Path = /58C2399E
+Reference = S4;
+ValeurCmp = SERVO4;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A0F8
+Path = /58C23A6B
+Reference = S5;
+ValeurCmp = SERVO5;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x03;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A23F
+Path = /57E4A74C
+Reference = DHT11;
+ValeurCmp = DHT11_CONN;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1A246
+Path = /58C2CED2
+Reference = JP9;
+ValeurCmp = Jumper;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1B93F
+Path = /58C2F86E
+Reference = J2;
+ValeurCmp = CONN_01X08;
+IdModule  = yaqwsx:Pin_Header_Straight_1x08_circle;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1B94A
+Path = /58C3103E
+Reference = J3;
+ValeurCmp = CONN_01X06;
+IdModule  = yaqwsx:Pin_Header_Straight_1x06_circle;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1B953
+Path = /58C318EF
+Reference = J4;
+ValeurCmp = CONN_01X08;
+IdModule  = yaqwsx:Pin_Header_Straight_1x08_circle;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1B95E
+Path = /58C31A55
+Reference = J5;
+ValeurCmp = CONN_01X10;
+IdModule  = yaqwsx:Pin_Header_Straight_1x10_circle;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1C673
+Path = /58C39409
+Reference = R23;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1C679
+Path = /58C39551
+Reference = R24;
+ValeurCmp = 1k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1C9FC
+Path = /58C3CBC9
+Reference = J7;
+ValeurCmp = CONN_01X04;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x04;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1CA02
+Path = /58C3D521
+Reference = R3;
+ValeurCmp = 20k;
+IdModule  = Resistors_SMD:R_1206_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58C1CBBC
+Path = /58C407B0
+Reference = JP17;
+ValeurCmp = Jumper;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02;
+EndCmp
+
+BeginCmp
+TimeStamp = 58DE6587
+Path = /58DE66DE
+Reference = C4;
+ValeurCmp = C_Small;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58DE658D
+Path = /58DE6B28
+Reference = C5;
+ValeurCmp = C_Small;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58DE6593
+Path = /58DE6CDD
+Reference = C6;
+ValeurCmp = C_Small;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58DE6599
+Path = /58DE7055
+Reference = C7;
+ValeurCmp = C_Small;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 58DE659F
+Path = /58DE720C
+Reference = C8;
+ValeurCmp = C_Small;
+IdModule  = Capacitors_SMD:C_0805_HandSoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = 5905B6D4
+Path = /5905E2A7
+Reference = J8;
+ValeurCmp = CONN_01X02;
+IdModule  = Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 591541FC
+Path = /5914FD59
+Reference = U3;
+ValeurCmp = ESP32-DEVKIT-C;
+IdModule  = yaqwsx:ESP32-DEVKIT-C;
+EndCmp
+
+EndListe

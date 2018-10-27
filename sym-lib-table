@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ArduinoLearningKitStarter-rescue)(type Legacy)(uri ${KIPRJMOD}/ArduinoLearningKitStarter-rescue.lib)(options "")(descr ""))
+  (lib (name yaqwsx)(type Legacy)(uri C:/Users/cleve/Documents/GitHub/yaqwsx_KiCAD_lib/symbols/yaqwsx.lib)(options "")(descr ""))
+)

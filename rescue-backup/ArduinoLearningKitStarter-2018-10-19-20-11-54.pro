@@ -1,4 +1,4 @@
-update=19.10.2018 20:12:05
+update=22.07.2018 9:51:30
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,3 +38,7 @@ version=1
 [eeschema]
 version=1
 LibDir=
+[eeschema/libraries]
+LibName1=/ArduinoLearningKitStarter-rescue
+LibName2=/robotarna_arduino-rescue
+LibName3=C:/Users/cleve/Documents/GitHub/yaqwsx_KiCAD_lib/symbols/yaqwsx
