@@ -1,4 +1,4 @@
-# ArduinoLarningKitStarter
+# ArduinoLearningKitStarter
 
 [English version follows]
 
