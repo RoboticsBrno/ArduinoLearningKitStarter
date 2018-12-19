@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ArduinoLearningKitStarter"
-Date "2018-10-20"
-Rev "3.2"
+Date "2018-12-19"
+Rev "3.1"
 Comp "RoboticsBrno"
 Comment1 ""
 Comment2 ""
