@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "ArduinoLearningKitStarter"
-Date "2018-12-19"
-Rev "3.1"
+Date "2018-12-20"
+Rev "3.2"
 Comp "RoboticsBrno"
 Comment1 ""
 Comment2 ""
@@ -703,7 +703,7 @@ L Device:C C3
 U 1 1 57E46232
 P 8750 4850
 F 0 "C3" V 8850 5000 50  0000 C CNN
-F 1 "100n" V 8850 4700 50  0000 C CNN
+F 1 "10n" V 8850 4700 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8750 4850 50  0001 C CNN
 F 3 "" H 8750 4850 50  0000 C CNN
 	1    8750 4850
@@ -749,7 +749,7 @@ L Device:C C1
 U 1 1 57E479A1
 P 8750 3050
 F 0 "C1" V 8850 3200 50  0000 C CNN
-F 1 "100n" V 8850 2900 50  0000 C CNN
+F 1 "10n" V 8850 2900 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8750 3050 50  0001 C CNN
 F 3 "" H 8750 3050 50  0000 C CNN
 	1    8750 3050
@@ -795,7 +795,7 @@ L Device:C C2
 U 1 1 57E47D71
 P 8750 3850
 F 0 "C2" V 8850 4000 50  0000 C CNN
-F 1 "100n" V 8850 3700 50  0000 C CNN
+F 1 "10n" V 8850 3700 50  0000 C CNN
 F 2 "Capacitors_SMD:C_1206_HandSoldering" H 8750 3850 50  0001 C CNN
 F 3 "" H 8750 3850 50  0000 C CNN
 	1    8750 3850
