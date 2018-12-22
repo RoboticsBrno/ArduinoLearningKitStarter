@@ -2057,4 +2057,122 @@ Wire Wire Line
 	6050 3600 6150 3600
 Wire Wire Line
 	6050 3250 6150 3250
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5C1DAAED
+P 7050 6400
+F 0 "H2" H 7150 6446 50  0000 L CNN
+F 1 "Arduino Uno Mounting" H 7150 6355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7050 6400 50  0001 C CNN
+F 3 "~" H 7050 6400 50  0001 C CNN
+	1    7050 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5C1DB830
+P 7050 6200
+F 0 "H1" H 7150 6246 50  0000 L CNN
+F 1 "Arduino Uno Mounting" H 7150 6155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 7050 6200 50  0001 C CNN
+F 3 "~" H 7050 6200 50  0001 C CNN
+	1    7050 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5C1DB922
+P 8100 6200
+F 0 "H3" H 8200 6246 50  0000 L CNN
+F 1 "Arduino Uno Mounting" H 8200 6155 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8100 6200 50  0001 C CNN
+F 3 "~" H 8100 6200 50  0001 C CNN
+	1    8100 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5C1DBA12
+P 8100 6400
+F 0 "H4" H 8200 6446 50  0000 L CNN
+F 1 "Arduino Uno Mounting" H 8200 6355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 8100 6400 50  0001 C CNN
+F 3 "~" H 8100 6400 50  0001 C CNN
+	1    8100 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5C1E65A4
+P 9250 6150
+F 0 "H5" H 9350 6196 50  0000 L CNN
+F 1 "Mounting Hole" H 9350 6105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9250 6150 50  0001 C CNN
+F 3 "~" H 9250 6150 50  0001 C CNN
+	1    9250 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5C1E68AB
+P 9250 6400
+F 0 "H6" H 9350 6446 50  0000 L CNN
+F 1 "Mounting Hole" H 9350 6355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 9250 6400 50  0001 C CNN
+F 3 "~" H 9250 6400 50  0001 C CNN
+	1    9250 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5C1E6975
+P 10000 6150
+F 0 "H7" H 10100 6196 50  0000 L CNN
+F 1 "Mounting Hole" H 10100 6105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 10000 6150 50  0001 C CNN
+F 3 "~" H 10000 6150 50  0001 C CNN
+	1    10000 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 5C1E6A5D
+P 10000 6400
+F 0 "H8" H 10100 6446 50  0000 L CNN
+F 1 "Mounting Hole" H 10100 6355 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2" H 10000 6400 50  0001 C CNN
+F 3 "~" H 10000 6400 50  0001 C CNN
+	1    10000 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x05 J?
+U 1 1 5C1EA8A1
+P 10650 3700
+F 0 "J?" H 10730 3742 50  0000 L CNN
+F 1 "SPI" H 10730 3651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 10650 3700 50  0001 C CNN
+F 3 "~" H 10650 3700 50  0001 C CNN
+	1    10650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L ArduinoLearningKitStarter:GND #PWR?
+U 1 1 5C1EAB4C
+P 10450 3900
+F 0 "#PWR?" H 10450 3650 50  0001 C CNN
+F 1 "GND" V 10455 3772 50  0000 R CNN
+F 2 "" H 10450 3900 50  0000 C CNN
+F 3 "" H 10450 3900 50  0000 C CNN
+	1    10450 3900
+	0    1    1    0   
+$EndComp
+Text GLabel 10450 3800 0    60   Input ~ 0
+IOREF_U
+Text GLabel 10450 3600 0    60   Input ~ 0
+D12
+Text GLabel 10450 3500 0    60   Input ~ 0
+D13
+Text GLabel 10450 3700 0    60   Input ~ 0
+D11
 $EndSCHEMATC
