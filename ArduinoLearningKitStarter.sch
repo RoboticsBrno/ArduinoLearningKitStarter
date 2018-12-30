@@ -265,7 +265,7 @@ L Device:LED_RCBG L_RGB1
 U 1 1 57E2FA7A
 P 10700 2000
 F 0 "L_RGB1" V 10750 2650 50  0000 R CNN
-F 1 "LED_RCBG" V 10650 2750 50  0000 R CNN
+F 1 "RGB" V 10650 2550 50  0000 R CNN
 F 2 "LED_THT:LED_D5.0mm-4_RGB" H 10700 1950 50  0001 C CNN
 F 3 "" H 10700 1950 50  0000 C CNN
 	1    10700 2000
@@ -857,11 +857,11 @@ F 3 "" H 7900 4550 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L ArduinoLearningKitStarter:Conn_01x04 DHT11
+L ArduinoLearningKitStarter:Conn_01x04 J10
 U 1 1 57E4A74C
 P 10650 3050
-F 0 "DHT11" H 10650 3300 50  0000 C CNN
-F 1 "DHT11_CONN" V 10750 3050 50  0000 C CNN
+F 0 "J10" H 10850 3050 50  0000 C CNN
+F 1 "DHT11" H 10850 2950 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 10650 3050 50  0001 C CNN
 F 3 "" H 10650 3050 50  0000 C CNN
 	1    10650 3050
@@ -1293,40 +1293,18 @@ F 3 "" H 3900 3700 50  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R23
-U 1 1 58C39409
-P 3500 6650
-F 0 "R23" V 3500 6650 50  0000 C CNN
-F 1 "1k" V 3384 6650 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" H 3500 6650 50  0001 C CNN
-F 3 "" H 3500 6650 50  0001 C CNN
-	1    3500 6650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R R24
-U 1 1 58C39551
-P 3500 6750
-F 0 "R24" V 3500 6750 50  0000 C CNN
-F 1 "1k" V 3600 6750 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" H 3500 6750 50  0001 C CNN
-F 3 "" H 3500 6750 50  0001 C CNN
-	1    3500 6750
-	0    1    1    0   
-$EndComp
-$Comp
 L ArduinoLearningKitStarter:GND #PWR037
 U 1 1 58C39C30
-P 3200 6550
-F 0 "#PWR037" H 3200 6300 50  0001 C CNN
-F 1 "GND" H 3200 6400 50  0000 C CNN
-F 2 "" H 3200 6550 50  0000 C CNN
-F 3 "" H 3200 6550 50  0000 C CNN
-	1    3200 6550
-	0    -1   1    0   
+P 10450 4450
+F 0 "#PWR037" H 10450 4200 50  0001 C CNN
+F 1 "GND" H 10450 4300 50  0000 C CNN
+F 2 "" H 10450 4450 50  0000 C CNN
+F 3 "" H 10450 4450 50  0000 C CNN
+	1    10450 4450
+	-1   0    0    -1  
 $EndComp
-Text GLabel 3750 6750 2    60   Input ~ 0
-D1
+Text GLabel 10450 4150 0    60   Input ~ 0
+A5
 $Comp
 L ArduinoLearningKitStarter:GND #PWR038
 U 1 1 58C3D24F
@@ -1435,13 +1413,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J6
 U 1 1 58C39125
-P 3000 6650
-F 0 "J6" H 3000 6900 50  0000 C CNN
-F 1 "CONN_01X04" V 3100 6650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal" H 3000 6650 50  0001 C CNN
-F 3 "" H 3000 6650 50  0001 C CNN
-	1    3000 6650
-	-1   0    0    1   
+P 10650 4250
+F 0 "J6" H 10800 4250 50  0000 C CNN
+F 1 "I2C" H 10800 4150 50  0000 C CNN
+F 2 "ALKS:PinHeader_1x04_P2.54mm_Horizontal" H 10650 4250 50  0001 C CNN
+F 3 "" H 10650 4250 50  0001 C CNN
+	1    10650 4250
+	1    0    0    -1  
 $EndComp
 Text GLabel 7900 4800 0    60   Input ~ 0
 IOREF_U
@@ -1453,11 +1431,11 @@ Text GLabel 6450 6550 1    60   Input ~ 0
 IOREF_U
 Text GLabel 6700 5450 2    60   Input ~ 0
 IOREF_U
-Text GLabel 3750 6650 2    60   Input ~ 0
-D0
+Text GLabel 10450 4250 0    60   Input ~ 0
+A4
 Text GLabel 3200 5300 2    60   Input ~ 0
 IOREF_U
-Text GLabel 3300 6350 2    60   Input ~ 0
+Text GLabel 10250 4500 0    60   Input ~ 0
 IOREF_U
 Text GLabel 10450 2950 0    60   Input ~ 0
 IOREF_U
@@ -1785,10 +1763,6 @@ Wire Wire Line
 Wire Wire Line
 	1300 5550 1200 5550
 Wire Wire Line
-	3650 6650 3750 6650
-Wire Wire Line
-	3650 6750 3750 6750
-Wire Wire Line
 	4400 4400 4400 4500
 Wire Wire Line
 	4400 4500 4400 4600
@@ -1916,16 +1890,6 @@ Wire Wire Line
 	7800 1500 7950 1500
 Wire Wire Line
 	9750 1100 9450 1100
-Wire Wire Line
-	3300 6350 3250 6350
-Wire Wire Line
-	3250 6350 3250 6450
-Wire Wire Line
-	3250 6450 3200 6450
-Wire Wire Line
-	3200 6650 3350 6650
-Wire Wire Line
-	3200 6750 3350 6750
 Wire Wire Line
 	1200 5750 1250 5750
 Wire Wire Line
@@ -2146,21 +2110,21 @@ F 3 "~" H 10000 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x05 J?
+L Connector_Generic:Conn_01x05 J9
 U 1 1 5C1EA8A1
 P 10650 3700
-F 0 "J?" H 10730 3742 50  0000 L CNN
+F 0 "J9" H 10730 3742 50  0000 L CNN
 F 1 "SPI" H 10730 3651 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Horizontal" H 10650 3700 50  0001 C CNN
+F 2 "ALKS:PinHeader_1x05_P2.54mm_Horizontal" H 10650 3700 50  0001 C CNN
 F 3 "~" H 10650 3700 50  0001 C CNN
 	1    10650 3700
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArduinoLearningKitStarter:GND #PWR?
+L ArduinoLearningKitStarter:GND #PWR0101
 U 1 1 5C1EAB4C
 P 10450 3900
-F 0 "#PWR?" H 10450 3650 50  0001 C CNN
+F 0 "#PWR0101" H 10450 3650 50  0001 C CNN
 F 1 "GND" V 10455 3772 50  0000 R CNN
 F 2 "" H 10450 3900 50  0000 C CNN
 F 3 "" H 10450 3900 50  0000 C CNN
@@ -2175,4 +2139,8 @@ Text GLabel 10450 3500 0    60   Input ~ 0
 D13
 Text GLabel 10450 3700 0    60   Input ~ 0
 D11
+Wire Wire Line
+	10250 4500 10250 4350
+Wire Wire Line
+	10250 4350 10450 4350
 $EndSCHEMATC
