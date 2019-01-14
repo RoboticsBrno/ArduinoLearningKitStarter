@@ -579,7 +579,7 @@ U 1 1 57E3733E
 P 6450 6800
 F 0 "PHOTO1" H 6520 6846 50  0000 L CNN
 F 1 "Photores" H 6520 6755 50  0000 L CNN
-F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM7mm" V 6380 6800 50  0001 C CNN
+F 2 "ALKS:PHOTO" V 6380 6800 50  0001 C CNN
 F 3 "" H 6450 6800 50  0000 C CNN
 	1    6450 6800
 	1    0    0    -1  
@@ -1157,14 +1157,14 @@ F 3 "" H 1600 6400 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J2
+L Connector_Generic:Conn_02x08_Odd_Even J2
 U 1 1 58C2F86E
-P 4600 3700
-F 0 "J2" H 4600 4150 50  0000 C CNN
-F 1 "CONN_01X08" V 4700 3700 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4600 3700 50  0001 C CNN
-F 3 "" H 4600 3700 50  0001 C CNN
-	1    4600 3700
+P 3600 3400
+F 0 "J2" H 3600 3850 50  0000 C CNN
+F 1 "CONN_01X08" V 3700 3400 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 3600 3400 50  0001 C CNN
+F 3 "" H 3600 3400 50  0001 C CNN
+	1    3600 3400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1179,80 +1179,69 @@ F 3 "" H 1800 6400 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L ArduinoLearningKitStarter:+5V #PWR030
-U 1 1 58C30CE3
-P 4350 4100
-F 0 "#PWR030" H 4350 3950 50  0001 C CNN
-F 1 "+5V" V 4365 4228 50  0000 L CNN
-F 2 "" H 4350 4100 50  0000 C CNN
-F 3 "" H 4350 4100 50  0000 C CNN
-	1    4350 4100
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x06 J3
+L Connector_Generic:Conn_02x06_Odd_Even J3
 U 1 1 58C3103E
-P 4600 4600
-F 0 "J3" H 4600 4950 50  0000 C CNN
-F 1 "CONN_01X06" V 4700 4600 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 4600 4600 50  0001 C CNN
-F 3 "" H 4600 4600 50  0001 C CNN
-	1    4600 4600
+P 3600 4300
+F 0 "J3" H 3600 4650 50  0000 C CNN
+F 1 "CONN_01X06" V 3700 4300 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 3600 4300 50  0001 C CNN
+F 3 "" H 3600 4300 50  0001 C CNN
+	1    3600 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L ArduinoLearningKitStarter:GND #PWR031
 U 1 1 58C31560
-P 4350 4900
-F 0 "#PWR031" H 4350 4650 50  0001 C CNN
-F 1 "GND" H 4350 4750 50  0000 C CNN
-F 2 "" H 4350 4900 50  0000 C CNN
-F 3 "" H 4350 4900 50  0000 C CNN
-	1    4350 4900
+P 3350 4600
+F 0 "#PWR031" H 3350 4350 50  0001 C CNN
+F 1 "GND" H 3350 4450 50  0000 C CNN
+F 2 "" H 3350 4600 50  0000 C CNN
+F 3 "" H 3350 4600 50  0000 C CNN
+	1    3350 4600
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 J4
+L Connector_Generic:Conn_02x08_Odd_Even J4
 U 1 1 58C318EF
-P 4600 5500
-F 0 "J4" H 4600 5950 50  0000 C CNN
-F 1 "CONN_01X08" V 4700 5500 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4600 5500 50  0001 C CNN
-F 3 "" H 4600 5500 50  0001 C CNN
-	1    4600 5500
+P 3600 5200
+F 0 "J4" H 3600 5650 50  0000 C CNN
+F 1 "CONN_01X08" V 3700 5200 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 3600 5200 50  0001 C CNN
+F 3 "" H 3600 5200 50  0001 C CNN
+	1    3600 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L ArduinoLearningKitStarter:GND #PWR032
 U 1 1 58C319C6
-P 4350 5900
-F 0 "#PWR032" H 4350 5650 50  0001 C CNN
-F 1 "GND" H 4350 5750 50  0000 C CNN
-F 2 "" H 4350 5900 50  0000 C CNN
-F 3 "" H 4350 5900 50  0000 C CNN
-	1    4350 5900
+P 3350 5600
+F 0 "#PWR032" H 3350 5350 50  0001 C CNN
+F 1 "GND" H 3350 5450 50  0000 C CNN
+F 2 "" H 3350 5600 50  0000 C CNN
+F 3 "" H 3350 5600 50  0000 C CNN
+	1    3350 5600
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J5
+L Connector_Generic:Conn_02x10_Odd_Even J5
 U 1 1 58C31A55
-P 4600 6650
-F 0 "J5" H 4600 7200 50  0000 C CNN
-F 1 "CONN_01X10" V 4700 6650 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 4600 6650 50  0001 C CNN
-F 3 "" H 4600 6650 50  0001 C CNN
-	1    4600 6650
+P 3600 6350
+F 0 "J5" H 3600 6900 50  0000 C CNN
+F 1 "CONN_01X10" V 3700 6350 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 3600 6350 50  0001 C CNN
+F 3 "" H 3600 6350 50  0001 C CNN
+	1    3600 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L ArduinoLearningKitStarter:GND #PWR033
 U 1 1 58C326A3
-P 4350 7150
-F 0 "#PWR033" H 4350 6900 50  0001 C CNN
-F 1 "GND" H 4350 7000 50  0000 C CNN
-F 2 "" H 4350 7150 50  0000 C CNN
-F 3 "" H 4350 7150 50  0000 C CNN
-	1    4350 7150
+P 3350 6850
+F 0 "#PWR033" H 3350 6600 50  0001 C CNN
+F 1 "GND" H 3350 6700 50  0000 C CNN
+F 2 "" H 3350 6850 50  0000 C CNN
+F 3 "" H 3350 6850 50  0000 C CNN
+	1    3350 6850
 	0    1    1    0   
 $EndComp
 Text GLabel 7950 1300 0    60   Input ~ 0
@@ -1260,37 +1249,13 @@ IOREF
 $Comp
 L ArduinoLearningKitStarter:GND #PWR034
 U 1 1 58C335CF
-P 4400 3400
-F 0 "#PWR034" H 4400 3150 50  0001 C CNN
-F 1 "GND" H 4400 3250 50  0000 C CNN
-F 2 "" H 4400 3400 50  0000 C CNN
-F 3 "" H 4400 3400 50  0000 C CNN
-	1    4400 3400
-	-1   0    0    1   
-$EndComp
-Text GLabel 4400 3500 0    60   Input ~ 0
-IOREF
-$Comp
-L ArduinoLearningKitStarter:GND #PWR035
-U 1 1 58C33A9B
-P 4100 3600
-F 0 "#PWR035" H 4100 3350 50  0001 C CNN
-F 1 "GND" V 4100 3350 50  0000 C CNN
-F 2 "" H 4100 3600 50  0000 C CNN
-F 3 "" H 4100 3600 50  0000 C CNN
-	1    4100 3600
+P 3400 3800
+F 0 "#PWR034" H 3400 3550 50  0001 C CNN
+F 1 "GND" H 3400 3650 50  0000 C CNN
+F 2 "" H 3400 3800 50  0000 C CNN
+F 3 "" H 3400 3800 50  0000 C CNN
+	1    3400 3800
 	0    1    1    0   
-$EndComp
-$Comp
-L ArduinoLearningKitStarter:+3V3 #PWR036
-U 1 1 58C33C8A
-P 3900 3700
-F 0 "#PWR036" H 3900 3550 50  0001 C CNN
-F 1 "+3V3" V 3915 3828 50  0000 L CNN
-F 2 "" H 3900 3700 50  0000 C CNN
-F 3 "" H 3900 3700 50  0000 C CNN
-	1    3900 3700
-	0    -1   -1   0   
 $EndComp
 $Comp
 L ArduinoLearningKitStarter:GND #PWR037
@@ -1308,26 +1273,26 @@ A5
 $Comp
 L ArduinoLearningKitStarter:GND #PWR038
 U 1 1 58C3D24F
-P 3350 5600
-F 0 "#PWR038" H 3350 5350 50  0001 C CNN
-F 1 "GND" H 3350 5450 50  0000 C CNN
-F 2 "" H 3350 5600 50  0000 C CNN
-F 3 "" H 3350 5600 50  0000 C CNN
-	1    3350 5600
+P 4050 7450
+F 0 "#PWR038" H 4050 7200 50  0001 C CNN
+F 1 "GND" H 4050 7300 50  0000 C CNN
+F 2 "" H 4050 7450 50  0000 C CNN
+F 3 "" H 4050 7450 50  0000 C CNN
+	1    4050 7450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 58C3D521
-P 3500 5500
-F 0 "R3" V 3500 5500 50  0000 C CNN
-F 1 "20k" V 3400 5500 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206_HandSoldering" H 3500 5500 50  0001 C CNN
-F 3 "" H 3500 5500 50  0001 C CNN
-	1    3500 5500
+P 4200 7350
+F 0 "R3" V 4200 7350 50  0000 C CNN
+F 1 "20k" V 4100 7350 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206_HandSoldering" H 4200 7350 50  0001 C CNN
+F 3 "" H 4200 7350 50  0001 C CNN
+	1    4200 7350
 	0    1    1    0   
 $EndComp
-Text GLabel 3200 5400 2    60   Input ~ 0
+Text GLabel 3900 7250 2    60   Input ~ 0
 A3
 $Comp
 L Device:Jumper_NC_Small JP17
@@ -1402,12 +1367,12 @@ IOREF_U
 $Comp
 L Connector_Generic:Conn_01x04 J7
 U 1 1 58C3CBC9
-P 3000 5500
-F 0 "J7" H 3000 5750 50  0000 C CNN
-F 1 "CONN_01X04" V 3100 5500 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3000 5500 50  0001 C CNN
-F 3 "" H 3000 5500 50  0001 C CNN
-	1    3000 5500
+P 3700 7350
+F 0 "J7" H 3700 7600 50  0000 C CNN
+F 1 "CONN_01X04" V 3800 7350 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 3700 7350 50  0001 C CNN
+F 3 "" H 3700 7350 50  0001 C CNN
+	1    3700 7350
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -1433,7 +1398,7 @@ Text GLabel 6700 5450 2    60   Input ~ 0
 IOREF_U
 Text GLabel 10450 4250 0    60   Input ~ 0
 A4
-Text GLabel 3200 5300 2    60   Input ~ 0
+Text GLabel 3900 7150 2    60   Input ~ 0
 IOREF_U
 Text GLabel 10250 4500 0    60   Input ~ 0
 IOREF_U
@@ -1543,7 +1508,7 @@ Wire Wire Line
 Wire Wire Line
 	1450 6550 1500 6550
 Wire Wire Line
-	3200 5600 3350 5600
+	3900 7450 4050 7450
 Wire Wire Line
 	8400 3050 8400 3150
 Wire Wire Line
@@ -1703,57 +1668,38 @@ Wire Wire Line
 Wire Wire Line
 	1200 3050 1300 3050
 Wire Wire Line
-	4400 5200 4400 5300
+	3400 4900 3400 5000
 Wire Wire Line
-	4400 5300 4400 5400
-Connection ~ 4400 5300
+	3400 5600 3350 5600
 Wire Wire Line
-	4400 5400 4400 5500
-Connection ~ 4400 5400
+	3400 5950 3400 6050
 Wire Wire Line
-	4400 5500 4400 5600
-Connection ~ 4400 5500
+	3400 6150 3400 6050
+Connection ~ 3400 6050
 Wire Wire Line
-	4400 5600 4400 5700
-Connection ~ 4400 5600
+	3400 6150 3400 6250
+Connection ~ 3400 6150
 Wire Wire Line
-	4400 5700 4400 5800
-Connection ~ 4400 5700
+	3400 6250 3400 6350
+Connection ~ 3400 6250
 Wire Wire Line
-	4400 5800 4400 5900
-Connection ~ 4400 5800
+	3400 6350 3400 6450
+Connection ~ 3400 6350
 Wire Wire Line
-	4400 5900 4350 5900
-Connection ~ 4400 5900
+	3400 6450 3400 6550
+Connection ~ 3400 6450
 Wire Wire Line
-	4400 6250 4400 6350
+	3400 6550 3400 6650
+Connection ~ 3400 6550
 Wire Wire Line
-	4400 6450 4400 6350
-Connection ~ 4400 6350
+	3400 6650 3400 6750
+Connection ~ 3400 6650
 Wire Wire Line
-	4400 6450 4400 6550
-Connection ~ 4400 6450
+	3400 6750 3400 6850
+Connection ~ 3400 6750
 Wire Wire Line
-	4400 6550 4400 6650
-Connection ~ 4400 6550
-Wire Wire Line
-	4400 6650 4400 6750
-Connection ~ 4400 6650
-Wire Wire Line
-	4400 6750 4400 6850
-Connection ~ 4400 6750
-Wire Wire Line
-	4400 6850 4400 6950
-Connection ~ 4400 6850
-Wire Wire Line
-	4400 6950 4400 7050
-Connection ~ 4400 6950
-Wire Wire Line
-	4400 7050 4400 7150
-Connection ~ 4400 7050
-Wire Wire Line
-	4400 7150 4350 7150
-Connection ~ 4400 7150
+	3400 6850 3350 6850
+Connection ~ 3400 6850
 Wire Wire Line
 	1300 3700 1200 3700
 Wire Wire Line
@@ -1763,22 +1709,22 @@ Wire Wire Line
 Wire Wire Line
 	1300 5550 1200 5550
 Wire Wire Line
-	4400 4400 4400 4500
+	3400 4100 3400 4200
 Wire Wire Line
-	4400 4500 4400 4600
-Connection ~ 4400 4500
+	3400 4200 3400 4300
+Connection ~ 3400 4200
 Wire Wire Line
-	4400 4600 4400 4700
-Connection ~ 4400 4600
+	3400 4300 3400 4400
+Connection ~ 3400 4300
 Wire Wire Line
-	4400 4700 4400 4800
-Connection ~ 4400 4700
+	3400 4400 3400 4500
+Connection ~ 3400 4400
 Wire Wire Line
-	4400 4800 4400 4900
-Connection ~ 4400 4800
+	3400 4500 3400 4600
+Connection ~ 3400 4500
 Wire Wire Line
-	4400 4900 4350 4900
-Connection ~ 4400 4900
+	3400 4600 3350 4600
+Connection ~ 3400 4600
 Wire Wire Line
 	6850 3250 6950 3250
 Wire Wire Line
@@ -1860,18 +1806,13 @@ Wire Wire Line
 Wire Wire Line
 	6450 6650 6450 6550
 Wire Wire Line
-	4400 3600 4100 3600
+	3400 3500 3400 3600
 Wire Wire Line
-	4400 3800 4400 3900
+	3400 3600 3400 3700
+Connection ~ 3400 3600
 Wire Wire Line
-	4400 3900 4400 4000
-Connection ~ 4400 3900
-Wire Wire Line
-	4400 4100 4400 4000
-Connection ~ 4400 4000
-Wire Wire Line
-	4400 4100 4350 4100
-Connection ~ 4400 4100
+	3400 3800 3400 3700
+Connection ~ 3400 3700
 Wire Wire Line
 	6550 4950 6450 4950
 Wire Wire Line
@@ -1971,14 +1912,14 @@ Connection ~ 1800 5650
 Wire Wire Line
 	1800 5650 1900 5650
 Wire Wire Line
-	3200 5500 3350 5500
+	3900 7350 4050 7350
 Wire Wire Line
-	3650 5500 3700 5500
+	4350 7350 4400 7350
 Wire Wire Line
-	3700 5500 3700 5600
-Connection ~ 3350 5600
+	4400 7350 4400 7450
+Connection ~ 4050 7450
 Wire Wire Line
-	3350 5600 3700 5600
+	4050 7450 4400 7450
 Wire Wire Line
 	1500 6550 1900 6550
 Connection ~ 1500 6550
@@ -1993,8 +1934,6 @@ Wire Wire Line
 Connection ~ 6450 7050
 Wire Wire Line
 	6450 7050 6450 7150
-Wire Wire Line
-	3900 3700 4400 3700
 Wire Wire Line
 	10500 1200 10500 1300
 Wire Wire Line
@@ -2021,50 +1960,6 @@ Wire Wire Line
 	6050 3600 6150 3600
 Wire Wire Line
 	6050 3250 6150 3250
-$Comp
-L Mechanical:MountingHole H2
-U 1 1 5C1DAAED
-P 7050 6400
-F 0 "H2" H 7150 6446 50  0000 L CNN
-F 1 "Arduino Uno Mounting" H 7150 6355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 7050 6400 50  0001 C CNN
-F 3 "~" H 7050 6400 50  0001 C CNN
-	1    7050 6400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H1
-U 1 1 5C1DB830
-P 7050 6200
-F 0 "H1" H 7150 6246 50  0000 L CNN
-F 1 "Arduino Uno Mounting" H 7150 6155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 7050 6200 50  0001 C CNN
-F 3 "~" H 7050 6200 50  0001 C CNN
-	1    7050 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H3
-U 1 1 5C1DB922
-P 8100 6200
-F 0 "H3" H 8200 6246 50  0000 L CNN
-F 1 "Arduino Uno Mounting" H 8200 6155 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 8100 6200 50  0001 C CNN
-F 3 "~" H 8100 6200 50  0001 C CNN
-	1    8100 6200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H4
-U 1 1 5C1DBA12
-P 8100 6400
-F 0 "H4" H 8200 6446 50  0000 L CNN
-F 1 "Arduino Uno Mounting" H 8200 6355 50  0000 L CNN
-F 2 "MountingHole:MountingHole_2.2mm_M2" H 8100 6400 50  0001 C CNN
-F 3 "~" H 8100 6400 50  0001 C CNN
-	1    8100 6400
-	1    0    0    -1  
-$EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 5C1E65A4
@@ -2143,4 +2038,124 @@ Wire Wire Line
 	10250 4500 10250 4350
 Wire Wire Line
 	10250 4350 10450 4350
+Connection ~ 3400 5600
+Connection ~ 3400 5500
+Connection ~ 3400 5400
+Wire Wire Line
+	3400 5500 3400 5600
+Wire Wire Line
+	3400 5400 3400 5500
+Connection ~ 3400 5300
+Connection ~ 3400 5200
+Wire Wire Line
+	3400 5300 3400 5400
+Wire Wire Line
+	3400 5200 3400 5300
+Connection ~ 3400 5100
+Connection ~ 3400 5000
+Wire Wire Line
+	3400 5100 3400 5200
+Wire Wire Line
+	3400 5000 3400 5100
+Text GLabel 3900 3800 2    60   Input ~ 0
+IOREF
+Text GLabel 3900 4600 2    60   Input ~ 0
+IOREF
+Text GLabel 3900 5600 2    60   Input ~ 0
+IOREF
+Text GLabel 3900 6850 2    60   Input ~ 0
+IOREF
+Wire Wire Line
+	3400 3500 3400 3400
+Connection ~ 3400 3500
+Wire Wire Line
+	3400 3400 3400 3300
+Connection ~ 3400 3400
+Wire Wire Line
+	3400 3300 3400 3200
+Connection ~ 3400 3300
+Wire Wire Line
+	3400 3200 3400 3100
+Connection ~ 3400 3200
+Connection ~ 3400 3800
+Wire Wire Line
+	3900 3100 3900 3200
+Wire Wire Line
+	3900 3200 3900 3300
+Connection ~ 3900 3200
+Wire Wire Line
+	3900 3300 3900 3400
+Connection ~ 3900 3300
+Wire Wire Line
+	3900 3400 3900 3500
+Connection ~ 3900 3400
+Wire Wire Line
+	3900 3500 3900 3600
+Connection ~ 3900 3500
+Wire Wire Line
+	3900 3600 3900 3700
+Connection ~ 3900 3600
+Wire Wire Line
+	3900 3700 3900 3800
+Connection ~ 3900 3700
+Wire Wire Line
+	3900 4600 3900 4500
+Wire Wire Line
+	3900 4500 3900 4400
+Connection ~ 3900 4500
+Wire Wire Line
+	3900 4400 3900 4300
+Connection ~ 3900 4400
+Wire Wire Line
+	3900 4300 3900 4200
+Connection ~ 3900 4300
+Wire Wire Line
+	3900 4200 3900 4100
+Connection ~ 3900 4200
+Wire Wire Line
+	3900 5600 3900 5500
+Wire Wire Line
+	3900 5500 3900 5400
+Connection ~ 3900 5500
+Wire Wire Line
+	3900 5400 3900 5300
+Connection ~ 3900 5400
+Wire Wire Line
+	3900 5300 3900 5200
+Connection ~ 3900 5300
+Wire Wire Line
+	3900 5200 3900 5100
+Connection ~ 3900 5200
+Wire Wire Line
+	3900 5100 3900 5000
+Connection ~ 3900 5100
+Connection ~ 3900 5000
+Wire Wire Line
+	3900 4900 3900 5000
+Wire Wire Line
+	3900 6750 3900 6850
+Wire Wire Line
+	3900 6750 3900 6650
+Connection ~ 3900 6750
+Wire Wire Line
+	3900 6650 3900 6550
+Connection ~ 3900 6650
+Wire Wire Line
+	3900 6550 3900 6450
+Connection ~ 3900 6550
+Wire Wire Line
+	3900 6450 3900 6350
+Connection ~ 3900 6450
+Wire Wire Line
+	3900 6350 3900 6250
+Connection ~ 3900 6350
+Wire Wire Line
+	3900 6250 3900 6150
+Connection ~ 3900 6250
+Wire Wire Line
+	3900 6050 3900 5950
+Wire Wire Line
+	3900 6150 3900 6050
+Connection ~ 3900 6150
+Connection ~ 3900 6050
 $EndSCHEMATC
