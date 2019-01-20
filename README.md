@@ -71,7 +71,7 @@ Getting started - read our [wiki page](https://github.com/RoboticsBrno/ArduinoLe
 
 ### Photos (version 2.0)
 
-The latest version is [v3.1](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/releases/).
+The latest version is [v3.2](https://github.com/RoboticsBrno/ArduinoLearningKitStarter/releases/).
 
 ![/media/ALKS_v2.0_2.01_top.JPG](/media/ALKS_v2.0_2.01_top.JPG)
 
