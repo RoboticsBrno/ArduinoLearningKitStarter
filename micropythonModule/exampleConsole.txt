@@ -1,0 +1,176 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:4692
+load:0x40078000,len:7496
+load:0x40080400,len:5512
+entry 0x4008114c
+I (405) cpu_start: Pro cpu up.
+I (405) cpu_start: Single core mode
+I (406) heap_init: Initializing. RAM available for dynamic allocation:
+I (409) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+I (415) heap_init: At 3FFC0908 len 0001F6F8 (125 KiB): DRAM
+I (422) heap_init: At 3FFE0440 len 00003BC0 (14 KiB): D/IRAM
+I (428) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+I (434) heap_init: At 40091C04 len 0000E3FC (56 KiB): IRAM
+I (440) cpu_start: Pro cpu start user code
+I (11) cpu_start: Starting scheduler on PRO CPU.
+I (60) modsocket: Initializing
+E (80) wifi: invalid magic number 3ffbb540, call WIFI_INIT_CONFIG_DEFAULT to init config
+E (80) wifi: wifi_init_in_caller_task 711 ret=258
+WebREPL is not configured, run 'import webrepl_setup'
+OSError: [Errno 2] ENOENT
+MicroPython v1.10 on 2019-02-02; ESP32 module with ESP32
+Type "help()" for more information.
+>>> import alks
+>>> alks.setupAll()
+>>> alks.testLeds()
+>>> alks.testLeds(500)
+>>> alks.testLeds()
+>>> alks.r.on()
+>>> alks.r.off()
+>>> alks.g.on()
+>>> alks.g.off()
+>>> delay(1000)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'delay' isn't defined
+>>> alks.delay(1000)
+>>> for i in range(100):
+...     alks.b.on()
+...     alks.delay(100)
+...     alks.b.off()
+...     alks.delay(50)
+...
+>>> alks.setupRgbPwm()
+>>> alks.RGBr.duty(50)
+>>> alks.RGBb.duty(10)
+>>> alks.RGBg.duty(40)
+>>> from alks import *
+>>> setupAll()
+>>> r.on()
+>>> g.on()
+>>> r.off()
+>>> while True:
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2
+SyntaxError: invalid syntax
+>>> while True:
+...     y.value(sw1.value())
+...
+__class__       __name__        gc              machine
+network         r               time            uos
+TX              RX              D0              D1
+D2              D3              D4              D5
+D6              D7              D8              D9
+D10             D11             D12             D13
+A0              A1              A2              A3
+A4              A5              A6              A7
+L_R             L_G             L_Y             L_B
+L_RGB_R         L_RGB_G         L_RGB_B         SW1
+SW2             SW3             POT1            POT2
+PIEZO1          PIEZO2          PHOTO           DHT_PIN
+S1              S2              S3              S4
+S5              SDA             SCL             SS
+MOSI            MISO            SCK             DAC1
+DAC2            g               b               y
+setupLeds       RGBr            RGBg            RGBb
+setupRgbLeds    sw1             sw2             sw3
+setupButtons    piezo           setupPiezo      setupAll
+setupRgbPwm     pot1            pot2
+setupPotenciometers             delay           cekej
+testLeds        bdev            webrepl         alks
+i
+...
+>>> while True:
+...     y.value(sw1.value())
+...     g.value(sw2.value())
+...
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+KeyboardInterrupt:
+>>> setupRgbPwm()
+>>> setupPotenciometers()
+>>> RGBr.duty(pot1.read())
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'NoneType' object has no attribute 'read'
+>>> alks.setupPotenciometers()
+>>> alks.RGBr.duty(alks.pot1.read())
+>>> while True:
+...     alks.RGBr.duty(alks.pot1.read())
+...
+Traceback (most recent call last):
+  File "<stdin>", line 2, in <module>
+KeyboardInterrupt:
+>>> alks.RGBr.duty(500)
+>>> alks.RGBr.duty(50)
+>>> alks.setupRgbPwm()
+>>> alks.RGBr.duty(50)
+>>> alks.RGBr.freq(500)
+>>> alks.RGBr.duty(10)
+>>> alks.RGBr.duty(90)
+>>> machine.freq()
+240000000
+>>> machine.freq(120000000)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: frequency can only be either 80Mhz, 160MHz or 240MHz
+>>> machine.freq(80000000)
+>>> machine.freq()
+240000000
+>>> import esp
+>>> esp.flash_size()
+4194304
+>>> import esp32
+>>> esp32.raw_temperature()
+118
+>>> esp32.hall_sensor()
+46
+>>> import network
+>>> wlan = network.WLAN(network.STA_IF)
+E (827260) wifi: invalid magic number 3ffbe3e0, call WIFI_INIT_CONFIG_DEFAULT to init config
+E (827260) wifi: wifi_init_in_caller_task 711 ret=258
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+RuntimeError: Wifi Unknown Error 0x0102
+>>> machine.RTC().datetime()
+(2000, 1, 1, 5, 0, 14, 59, 940234)
+>>> machine.RTC().datetime((2019, 02, 02, 12, 08, 34, 0, 0))
+>>> machine.RTC().datetime()
+(2019, 2, 2, 5, 8, 34, 3, 639261)
+>>> machine.deepsleep(5000)
+ets Jun  8 2016 00:22:57
+
+rst:0x5 (DEEPSLEEP_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:4692
+load:0x40078000,len:7496
+load:0x40080400,len:5512
+entry 0x4008114c
+I (405) cpu_start: Pro cpu up.
+I (405) cpu_start: Single core mode
+I (405) heap_init: Initializing. RAM available for dynamic allocation:
+I (409) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+I (415) heap_init: At 3FFC0908 len 0001F6F8 (125 KiB): DRAM
+I (421) heap_init: At 3FFE0440 len 00003BC0 (14 KiB): D/IRAM
+I (428) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+I (434) heap_init: At 40091C04 len 0000E3FC (56 KiB): IRAM
+I (440) cpu_start: Pro cpu start user code
+I (11) cpu_start: Starting scheduler on PRO CPU.
+I (59) modsocket: Initializing
+E (79) wifi: invalid magic number 3ffbb540, call WIFI_INIT_CONFIG_DEFAULT to init config
+E (79) wifi: wifi_init_in_caller_task 711 ret=258
+WebREPL is not configured, run 'import webrepl_setup'
+OSError: [Errno 2] ENOENT
+MicroPython v1.10 on 2019-02-02; ESP32 module with ESP32
+Type "help()" for more information.
+>>>
