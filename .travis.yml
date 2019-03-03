@@ -4,13 +4,15 @@ install:
   - gem update bundler
   - bundle update --bundler
   - bundle install
+  - cd ..
 script:
   - cd web
   - bundle exec jekyll build
+  - cd ..
 after_success:
-  - echo "Deploy"
   - cd web
   - zip -r web.zip _site/*
   - mkdir split
   - zipsplit -n 30000000 -b split web.zip
   - for f in split/*.zip; do curl -sS -F "file=@$f" -F "token=$PASSWORD" $UPLOAD_URL; done
+  - cd ..
