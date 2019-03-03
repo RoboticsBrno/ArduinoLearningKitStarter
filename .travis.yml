@@ -6,8 +6,9 @@ install:
   - bundle install
 script:
   - cd web
-	- bundle exec jekyll build
+  - bundle exec jekyll build
 after_success:
+  - echo "Deploy"
   - cd web
   - zip -r web.zip _site/*
   - mkdir split
