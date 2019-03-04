@@ -10,9 +10,9 @@ script:
   - bundle exec jekyll build
   - cd ..
 after_success:
-  - cd web
-  - zip -r web.zip _site/*
+  - cd web/_site
+  - zip -r web.zip *
   - mkdir split
   - zipsplit -n 30000000 -b split web.zip
   - for f in split/*.zip; do curl -sS -F "file=@$f" -F "token=$PASSWORD" $UPLOAD_URL; done
-  - cd ..
+  - cd ../..
