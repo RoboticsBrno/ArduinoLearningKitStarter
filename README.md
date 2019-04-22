@@ -1,6 +1,6 @@
 # ArduinoLearningKitStarter
 
-[English version follows]
+[[English version follows]](https://github.com/RoboticsBrno/ArduinoLearningKitStarter#english-version)
 
 Licence: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/?)
 
@@ -11,8 +11,8 @@ Výukový kit pro Arduino Nano, Arduino Uno a
 určeným začátečníkům od [RobotikaBrno.cz](http://robotikabrno.cz/). 
 Cílem projektu je usnadnit úplným začátečníkům jejich první krůčky s Arduinem 
 a vyhnout se "bastlení vrabčího hnízda". Náš kit si klade za cíl odstranit 
-typické nedostatky vývojových desek pro Arduina - jako např. malý počet 
-nápájecích pinů pro periférie. Veškeré komponenty jsou ve velkých pouzdrech, 
+typické nedostatky vývojových desek pro Arduina – jako např. malý počet 
+napájecích pinů pro periférie. Veškeré komponenty jsou ve velkých pouzdrech, 
 což umožňuje desku osadit i začátečníkům.
 
 Deska obsahuje:
@@ -21,7 +21,7 @@ Deska obsahuje:
 - RGB LED
 - 3 tlačítka
 - 2 potenciometry
-- 5 konektorů pro připojení modelářského serva (s posíleným napájením přes
+- 5 konektorů pro připojení modelářského servomotoru (s posíleným napájením přes
   microUSB konektor)
 - port pro připojení vlhkoměrného čidla DHT11
 - port pro připojení sériové linky
